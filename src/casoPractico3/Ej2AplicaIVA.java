@@ -2,7 +2,7 @@ package casoPractico3;
 
 import java.util.Scanner;
 
-public class Ej2 {
+public class Ej2AplicaIVA {
     public static void main(String[] args) {
         System.out.print("Indica el total de la factura: ");
         double total = leer();

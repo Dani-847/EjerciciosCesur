@@ -2,7 +2,7 @@ package casoPractico4;
 
 import java.util.Scanner;
 
-public class Ej2 {
+public class Ej2Pide10NumYDiQueSon {
     public static void main(String[] args) {
         int[] listaEnteros = new int[10];
 

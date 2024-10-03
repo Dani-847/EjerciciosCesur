@@ -2,7 +2,7 @@ package casoPractico3;
 
 import java.util.Scanner;
 
-public class Ej5 {
+public class Ej5PromedioDeNCalificaciones {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

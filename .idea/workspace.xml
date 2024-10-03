@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="1.7" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="1.8">
+      <change afterPath="$PROJECT_DIR$/src/casoPractico6/Ej5TrianguloInvertido.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/casoPractico6/Ej6TrianguloCondicional.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico3/Ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico3/Ej1EdadDadoElAño.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico3/Ej2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico3/Ej2AplicaIVA.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico3/Ej3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico3/Ej3NombreYSueldo80PorCiento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico3/Ej4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico3/Ej4SumaDeAlgo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico3/Ej5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico3/Ej5PromedioDeNCalificaciones.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico4/Ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico4/Ej1DosNumeros_Condicionales.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico4/Ej2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico4/Ej2Pide10NumYDiQueSon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico4/Ej3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico4/Ej3SumaEntre20y3500conCondicion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico4/Ej4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico4/Ej4CalculosParaAyB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico4/Ej5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico4/Ej5BucleInfinitoEnFinal0yDarMayor.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -96,7 +110,7 @@
       <workItem from="1727945187727" duration="532000" />
       <workItem from="1727945739051" duration="1092000" />
       <workItem from="1727948999267" duration="2310000" />
-      <workItem from="1727951345235" duration="1497000" />
+      <workItem from="1727951345235" duration="2304000" />
     </task>
     <task id="LOCAL-00001" summary="Principio">
       <option name="closed" value="true" />
@@ -186,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727952831589</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="1.8">
+      <option name="closed" value="true" />
+      <created>1727952902637</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1727952902637</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +234,7 @@
     <MESSAGE value="1.5" />
     <MESSAGE value="1.6" />
     <MESSAGE value="1.7" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.7" />
+    <MESSAGE value="1.8" />
+    <option name="LAST_COMMIT_MESSAGE" value="1.8" />
   </component>
 </project>

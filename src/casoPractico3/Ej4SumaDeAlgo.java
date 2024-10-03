@@ -1,6 +1,6 @@
 package casoPractico3;
 
-public class Ej4 {
+public class Ej4SumaDeAlgo {
     public static void main(String[] args) {
         int res=0;
         System.out.println(res);

@@ -2,7 +2,7 @@ package casoPractico3;
 
 import java.util.Scanner;
 
-public class Ej3 {
+public class Ej3NombreYSueldo80PorCiento {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

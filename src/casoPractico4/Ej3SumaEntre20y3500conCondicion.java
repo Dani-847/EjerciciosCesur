@@ -1,6 +1,6 @@
 package casoPractico4;
 
-public class Ej3 {
+public class Ej3SumaEntre20y3500conCondicion {
     public static void main(String[] args) {
         int total = 0;
         int cnt = 0;

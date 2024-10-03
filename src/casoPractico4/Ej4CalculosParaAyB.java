@@ -2,7 +2,7 @@ package casoPractico4;
 
 import java.util.Scanner;
 
-public class Ej4 {
+public class Ej4CalculosParaAyB {
     public static void main(String[] args) {
         System.out.print("Introduzca dos valores(A, B): ");
         Scanner sc = new Scanner(System.in);

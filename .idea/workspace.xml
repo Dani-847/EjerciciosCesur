@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="1.9">
-      <change afterPath="$PROJECT_DIR$/src/casoPractico6/Ej2ConversorRomano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casoPractico0_INTRODUCCION/inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico0_INTRODUCCION/ejemplo1Inicio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casoPractico6/Ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico6/Ej1ListaDeNumerosVariable.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="2.0 Caso Practico 6 completo">
+      <change beforePath="$PROJECT_DIR$/src/casoPractico6/Ej2ConversorRomano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico6/Ej2ConversorRomano.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,6 +52,7 @@
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "preferences.pluginManager",
     "vue.rearranger.settings.migration": "true"
   }
@@ -101,7 +99,7 @@
       <workItem from="1727945187727" duration="532000" />
       <workItem from="1727945739051" duration="1092000" />
       <workItem from="1727948999267" duration="2310000" />
-      <workItem from="1727951345235" duration="4821000" />
+      <workItem from="1727951345235" duration="5626000" />
     </task>
     <task id="LOCAL-00001" summary="Principio">
       <option name="closed" value="true" />
@@ -215,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727954113327</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="2.0 Caso Practico 6 completo">
+      <option name="closed" value="true" />
+      <created>1727957005344</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1727957005344</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -243,6 +249,7 @@
     <MESSAGE value="1.7" />
     <MESSAGE value="1.8" />
     <MESSAGE value="1.9" />
-    <option name="LAST_COMMIT_MESSAGE" value="1.9" />
+    <MESSAGE value="2.0 Caso Practico 6 completo" />
+    <option name="LAST_COMMIT_MESSAGE" value="2.0 Caso Practico 6 completo" />
   </component>
 </project>

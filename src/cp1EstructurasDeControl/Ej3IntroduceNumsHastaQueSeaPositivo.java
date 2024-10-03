@@ -1,8 +1,8 @@
-package u0Intro;
+package cp1EstructurasDeControl;
 
 import java.util.Scanner;
 
-public class Ej3 {
+public class Ej3IntroduceNumsHastaQueSeaPositivo {
     public static void main(String[] args) {
         int n=0;
         Scanner sc = new Scanner(System.in);

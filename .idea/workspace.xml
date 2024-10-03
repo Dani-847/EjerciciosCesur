@@ -5,8 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="1.4">
-      <change beforePath="$PROJECT_DIR$/src/u6CasoPractico/Ej2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u6CasoPractico/Ej4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/u6CasoPractico/Ej3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/u6CasoPractico/Ej3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u0Intro/Ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp1EstructurasDeControl/Ej1De3_ElMayor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u0Intro/Ej2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp1EstructurasDeControl/Ej2Num10al1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u0Intro/Ej3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp1EstructurasDeControl/Ej3IntroduceNumsHastaQueSeaPositivo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u0Intro/Ej4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp1EstructurasDeControl/Ej4SwitchNotas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u0Intro/Ej5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp1EstructurasDeControl/Ej5MultiplosEntre.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u1/EjEC1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp1EstructurasDeControl/EjEC1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u1/EjEC2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp1EstructurasDeControl/EjEC2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/u1/EjEC3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/cp1EstructurasDeControl/EjEC3.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +105,7 @@
       <workItem from="1727945187727" duration="532000" />
       <workItem from="1727945739051" duration="1092000" />
       <workItem from="1727948999267" duration="2310000" />
-      <workItem from="1727951345235" duration="309000" />
+      <workItem from="1727951345235" duration="831000" />
     </task>
     <task id="LOCAL-00001" summary="Principio">
       <option name="closed" value="true" />
@@ -157,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1727951513033</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="1.4">
+      <option name="closed" value="true" />
+      <created>1727951697988</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1727951697988</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,16 +195,5 @@
     <MESSAGE value="1.2" />
     <MESSAGE value="1.4" />
     <option name="LAST_COMMIT_MESSAGE" value="1.4" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/u0Intro/Ej3.java</url>
-          <line>6</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

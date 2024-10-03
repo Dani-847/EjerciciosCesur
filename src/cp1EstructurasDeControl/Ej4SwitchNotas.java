@@ -1,8 +1,8 @@
-package u0Intro;
+package cp1EstructurasDeControl;
 
 import java.util.Scanner;
 
-public class Ej4 {
+public class Ej4SwitchNotas {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce un numero: ");

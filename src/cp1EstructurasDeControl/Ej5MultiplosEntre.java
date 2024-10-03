@@ -1,6 +1,6 @@
-package u0Intro;
+package cp1EstructurasDeControl;
 
-public class Ej5 {
+public class Ej5MultiplosEntre {
     public static void main(String[] args) {
         int m2 = 0;
         int m3 = 0;

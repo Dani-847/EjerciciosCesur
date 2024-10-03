@@ -2,7 +2,7 @@ package casoPractico5;
 
 import java.util.Scanner;
 
-public class Ej4 {
+public class Ej4IntercambiarAyB {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduzca el valor de A: ");

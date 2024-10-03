@@ -2,7 +2,7 @@ package casoPractico5;
 
 import java.util.Scanner;
 
-public class Ej5 {
+public class Ej5PorcentajeNiñosYNiñas {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

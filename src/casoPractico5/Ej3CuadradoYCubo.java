@@ -2,7 +2,7 @@ package casoPractico5;
 
 import java.util.Scanner;
 
-public class Ej3 {
+public class Ej3CuadradoYCubo {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce un numero entero: ");

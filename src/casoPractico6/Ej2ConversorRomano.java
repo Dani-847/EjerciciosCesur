@@ -13,6 +13,7 @@ public class Ej2ConversorRomano {
         if (numero < 1 || numero > 3999)
             System.out.println("Numero invalido para la conversion");
         else{
+
             while (numero >= 1000) {
                 solucion += "M";
                 numero -= 1000;

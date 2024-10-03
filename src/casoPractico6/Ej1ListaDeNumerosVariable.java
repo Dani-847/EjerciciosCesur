@@ -2,7 +2,7 @@ package casoPractico6;
 
 import java.util.Scanner;
 
-public class Ej1 {
+public class Ej1ListaDeNumerosVariable {
     public static void main(String[] args) {
         System.out.print("Introduce un numero que definira el tamaño de la lista: ");
         Scanner sc = new Scanner(System.in);

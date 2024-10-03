@@ -19,6 +19,7 @@ public class Ej1 {
 
 
 
+
         double mayor=listaNumeros[0];
         double menor=listaNumeros[0];
         double sumaTotalPar=0;

@@ -2,7 +2,7 @@ package casoPractico6;
 
 import java.util.Scanner;
 
-public class Ej4 {
+public class Ej4PiramideNumeros {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce el lado del triangulo: ");

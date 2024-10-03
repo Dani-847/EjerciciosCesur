@@ -14,6 +14,7 @@ public class Ej5TrianguloInvertido {
                 System.out.print(j+",");
             }
             System.out.println();
+
         }
     }
 }

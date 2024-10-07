@@ -1,20 +1,10 @@
 public class Persona {
-    int edad;
-    int peso;
-
-    public Persona(int edad, int peso) {
-        this.edad = edad;
-        this.peso = peso;
-    }
-
-    public int getEdad() { return edad; }
-    public int getPeso() {
-        return peso;
-    }
-    public void setEdad(int edad) {
-        this.edad = edad;
-    }
-    public void setPeso(int peso) {
-        this.peso = peso;
+    public static void main(String[] args) {
+        int n=5;
+        int total=1;
+        for (int i = 5;i>=1;i--){
+            total*=i;
+        }
+        System.out.println(total);
     }
 }

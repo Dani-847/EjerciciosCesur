@@ -9,11 +9,9 @@ public class Ej2ConversorRomano {
         int numero = sc.nextInt();
         String solucion = "";
 
-
         if (numero < 1 || numero > 3999)
             System.out.println("Numero invalido para la conversion");
-        else{
-
+        else {
             while (numero >= 1000) {
                 solucion += "M";
                 numero -= 1000;
@@ -67,7 +65,6 @@ public class Ej2ConversorRomano {
                 numero -= 1;
             }
         }
-
         System.out.print(solucion);
     }
 }

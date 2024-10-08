@@ -2,7 +2,7 @@ package casoPractico2;
 
 import java.util.Scanner;
 
-public class EjEC2 {
+public class Ej2AreaBaseAltura {
     public static void main(String[] args) {
         int base = 0, altura = 0;
         Scanner sc = new Scanner(System.in);

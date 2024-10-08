@@ -2,7 +2,7 @@ package casoPractico2;
 
 import java.util.Scanner;
 
-public class Ej5 {
+public class Ej5DescuentoOctubre {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 

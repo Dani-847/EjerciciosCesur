@@ -2,7 +2,7 @@ package casoPractico2;
 
 import java.util.Scanner;
 
-public class EjEC1 {
+public class Ej1EdadMasPeso {
     public static void main(String[] args) {
         int edad = 0;
         int peso = 0;

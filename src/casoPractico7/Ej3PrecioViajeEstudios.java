@@ -17,7 +17,7 @@ public class Ej3PrecioViajeEstudios {
         } else if (n<30&&n>0){
             System.out.println("El coste total del bus 3000");
         } else {
-            System.out.println("La cantidad no puede ser menos a 0 alumnos.");
+            System.out.println("La cantidad no puede ser menor a 0 alumnos.");
         }
     }
 }

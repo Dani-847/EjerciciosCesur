@@ -7,7 +7,6 @@ public class Ej4ConversorBilletes {
         Scanner sc = new Scanner(System.in);
         System.out.print("Introduce un numero total a convertir: ");
         int n = sc.nextInt();
-
         int b500=0;
         while (n>=500){
             n-=500;

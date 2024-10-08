@@ -10,7 +10,7 @@ public class Ej3PrecioViajeEstudios {
 
         double total=n>100?65*n:n>=50&&n<=99?70*n:n>=30&&n<=49?95*n:n<30&&n>0?3000:0;
         if (total>0)
-            System.out.println("El coste total es: "+total+"; y por alumno son: "+total/n);
+            System.out.printf("El coste total es: "+total+"; y por alumno son: %.2f",total/n);
         else
             System.out.println("La cantidad no puede ser menor a 0 alumnos.");
 

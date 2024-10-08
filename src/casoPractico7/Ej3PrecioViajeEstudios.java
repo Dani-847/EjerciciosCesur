@@ -8,7 +8,7 @@ public class Ej3PrecioViajeEstudios {
         System.out.print("Introduce el numero de alumnos: ");
         int n = sc.nextInt();
 
-        int total=n>100?65*n:n>=50&&n<=99?70*n:n>=30&&n<=49?95*n:n<30&&n>0?3000:0;
+        double total=n>100?65*n:n>=50&&n<=99?70*n:n>=30&&n<=49?95*n:n<30&&n>0?3000:0;
         if (total>0)
             System.out.println("El coste total es: "+total+"; y por alumno son: "+total/n);
         else

@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="7.4">
-      <change beforePath="$PROJECT_DIR$/src/casoPractico7/Ej3PrecioViajeEstudios.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico7/Ej3PrecioViajeEstudios.java" afterDir="false" />
-    </list>
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="7.6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -103,7 +101,7 @@
       <workItem from="1728037337256" duration="945000" />
       <workItem from="1728293837522" duration="3131000" />
       <workItem from="1728299611814" duration="159000" />
-      <workItem from="1728383573111" duration="2273000" />
+      <workItem from="1728383573111" duration="2581000" />
     </task>
     <task id="LOCAL-00001" summary="Principio">
       <option name="closed" value="true" />
@@ -313,7 +311,23 @@
       <option name="project" value="LOCAL" />
       <updated>1728385700371</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="7.5">
+      <option name="closed" value="true" />
+      <created>1728385993062</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1728385993062</updated>
+    </task>
+    <task id="LOCAL-00028" summary="7.6">
+      <option name="closed" value="true" />
+      <created>1728386124374</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1728386124374</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -350,6 +364,8 @@
     <MESSAGE value="7.2" />
     <MESSAGE value="7.3" />
     <MESSAGE value="7.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="7.4" />
+    <MESSAGE value="7.5" />
+    <MESSAGE value="7.6" />
+    <option name="LAST_COMMIT_MESSAGE" value="7.6" />
   </component>
 </project>

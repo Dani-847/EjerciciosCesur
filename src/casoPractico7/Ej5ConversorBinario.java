@@ -28,7 +28,7 @@ public class Ej5ConversorBinario {
 
         String[] hexadecimal = {"A","B","C","D","E","F"};
         while (hexAux>0.9){
-            if (hexAux%16<9)
+            if (hexAux%16<=9)
                 hex = (int) (hexAux%16) + hex;
             else{
                 hex = hexadecimal[(((int) (hexAux%16))-10)] + hex;

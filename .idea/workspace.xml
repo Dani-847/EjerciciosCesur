@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="8.0">
+      <change afterPath="$PROJECT_DIR$/src/casoPractico8/Ej2Hamburger.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -104,7 +105,7 @@
       <workItem from="1728293837522" duration="3131000" />
       <workItem from="1728299611814" duration="159000" />
       <workItem from="1728383573111" duration="5925000" />
-      <workItem from="1728547756702" duration="8655000" />
+      <workItem from="1728547756702" duration="10184000" />
     </task>
     <task id="LOCAL-00001" summary="Principio">
       <option name="closed" value="true" />
@@ -410,7 +411,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728558576026</updated>
     </task>
-    <option name="localTasksCounter" value="39" />
+    <task id="LOCAL-00039" summary="8.0">
+      <option name="closed" value="true" />
+      <created>1728559420161</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1728559420161</updated>
+    </task>
+    <option name="localTasksCounter" value="40" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -455,5 +464,16 @@
     <MESSAGE value="7.11" />
     <MESSAGE value="8.0" />
     <option name="LAST_COMMIT_MESSAGE" value="8.0" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/EjercicioDiscord.java</url>
+          <line>32</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

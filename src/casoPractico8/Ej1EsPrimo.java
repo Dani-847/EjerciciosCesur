@@ -9,10 +9,15 @@ public class Ej1EsPrimo {
         int n = sc.nextInt();
 
         boolean es = true;
-        for(int i = 3;n>i&&es;i++){
+        int i = 3;
+        if (n%2==0)
+            es=false;
+        while (n>i&&es){
             if (n%i==0)
                 es=false;
+            i+=2;
         }
+
         if (es)
             System.out.println("Es primo");
         else

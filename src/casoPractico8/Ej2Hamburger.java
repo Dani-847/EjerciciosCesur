@@ -25,7 +25,7 @@ public class Ej2Hamburger {
 
         double modPago = 0;
         do {
-            if (tipoPago.toLowerCase().equals("tarjeta")) modPago=0.95;
+            if (tipoPago.toLowerCase().equals("tarjeta")) modPago=1.05;
             if (tipoPago.toLowerCase().equals("efectivo")) modPago=1;
             if (modPago==0){
                 System.out.print("Tipo invalido introduzcalo de nuevo (efectivo, tarjeta): ");

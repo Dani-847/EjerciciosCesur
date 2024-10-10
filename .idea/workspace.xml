@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="8.0">
-      <change afterPath="$PROJECT_DIR$/src/casoPractico8/Ej2Hamburger.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="8.1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico8/Ej2Hamburger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico8/Ej2Hamburger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,7 +105,7 @@
       <workItem from="1728293837522" duration="3131000" />
       <workItem from="1728299611814" duration="159000" />
       <workItem from="1728383573111" duration="5925000" />
-      <workItem from="1728547756702" duration="10184000" />
+      <workItem from="1728547756702" duration="11701000" />
     </task>
     <task id="LOCAL-00001" summary="Principio">
       <option name="closed" value="true" />
@@ -419,7 +419,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728559420161</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="8.1">
+      <option name="closed" value="true" />
+      <created>1728561102928</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1728561102928</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -438,7 +446,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1.1" />
     <MESSAGE value="1.2" />
     <MESSAGE value="1.4" />
     <MESSAGE value="1.5" />
@@ -463,7 +470,8 @@
     <MESSAGE value="7.10" />
     <MESSAGE value="7.11" />
     <MESSAGE value="8.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.0" />
+    <MESSAGE value="8.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

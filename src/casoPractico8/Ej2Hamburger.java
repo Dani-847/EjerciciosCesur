@@ -5,11 +5,11 @@ import java.util.Scanner;
 public class Ej2Hamburger {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        System.out.println("Que tipo de hamburguesa? ");
+        System.out.print("Que tipo de hamburguesa? ");
         String tipoHam = sc.nextLine();
-        System.out.println("Cuantas? ");
+        System.out.print("Cuantas? ");
         int cantidad = Integer.parseInt(sc.nextLine());
-        System.out.println("Con que quieres pagar? ");
+        System.out.print("Con que quieres pagar? ");
         String tipoPago = sc.nextLine();
 
         int precioUD = 0;

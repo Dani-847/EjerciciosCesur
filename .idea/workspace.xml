@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="8.3">
-      <change afterPath="$PROJECT_DIR$/src/casoPractico8/Ej4Febrero14.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="8.4">
+      <change afterPath="$PROJECT_DIR$/src/casoPractico8/Ej5FabricaDePantalones.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -107,7 +107,8 @@
       <workItem from="1728383573111" duration="5925000" />
       <workItem from="1728547756702" duration="12636000" />
       <workItem from="1728893505019" duration="4607000" />
-      <workItem from="1728900978513" duration="786000" />
+      <workItem from="1728900978513" duration="1185000" />
+      <workItem from="1728988956388" duration="2997000" />
     </task>
     <task id="LOCAL-00001" summary="Principio">
       <option name="closed" value="true" />
@@ -461,7 +462,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728896062591</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="8.4">
+      <option name="closed" value="true" />
+      <created>1728902162640</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1728902162640</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -480,7 +489,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1.5" />
     <MESSAGE value="1.6" />
     <MESSAGE value="1.7" />
     <MESSAGE value="1.8" />
@@ -505,7 +513,8 @@
     <MESSAGE value="8.1" />
     <MESSAGE value="8.2" />
     <MESSAGE value="8.3" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.3" />
+    <MESSAGE value="8.4" />
+    <option name="LAST_COMMIT_MESSAGE" value="8.4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

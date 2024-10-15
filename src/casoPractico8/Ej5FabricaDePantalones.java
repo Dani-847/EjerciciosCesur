@@ -6,7 +6,8 @@ public class Ej5FabricaDePantalones {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Precio de la tela(por metro)? ");
-        double precio = Double.parseDouble(sc.nextLine());
+        double precio = 0;
+        precio = Double.parseDouble(sc.nextLine());
         while (precio<=0){
             System.out.print("Precio invalido. Precio de la tela(por metro)? ");
             precio = Integer.parseInt(sc.nextLine());
@@ -18,7 +19,8 @@ public class Ej5FabricaDePantalones {
             modelo = sc.nextLine();
         }
         System.out.print("Talla(30,32,36)? ");
-        int talla = Integer.parseInt(sc.nextLine());
+        int talla = 0;
+        talla = Integer.parseInt(sc.nextLine());
         while (talla!=30&&talla!=32&&talla!=36){
             System.out.print("Talla no valida. Talla(30,32,36)? ");
             talla = Integer.parseInt(sc.nextLine());
@@ -33,16 +35,16 @@ public class Ej5FabricaDePantalones {
 
         double resultado = 0;
         if (modelo.equalsIgnoreCase("a")){
-            resultado += ((1.5*cantidad)*precio)+(((1.5*cantidad)*precio)*0.8);
+            resultado = (1.5*cantidad*precio*1.8);
         } else {
-            resultado += ((1.8*cantidad)*precio)+(((1.8*cantidad)*precio)*0.95);
+            resultado = (1.8*cantidad*precio*1.95);
         }
 
         if (talla==32||talla==36){
             resultado+= (resultado*0.04);
         }
-        System.out.println("El precio total es: "+(resultado+(resultado*0.3)));
-
+        System.out.println("El precio total es: "+(resultado*1.3));
+        System.out.println("El precio finalde venta por unidad es: "+resultado/cantidad);
 
 
     }

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="9.0" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="9.0">
+      <change afterPath="$PROJECT_DIR$/src/casoPractico9/Ej2FabricaDiurnaNocturna.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico9/Ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico9/Ej1CuadradoHueco.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -57,7 +61,7 @@
 }</component>
   <component name="RunManager">
     <configuration name="Prueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Prueba" />
+      <option name="MAIN_CLASS_NAME" value="ejerciciosSueltos.Prueba" />
       <module name="EjerciciosJavaCesur" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -106,7 +110,7 @@
       <workItem from="1728893505019" duration="4607000" />
       <workItem from="1728900978513" duration="1185000" />
       <workItem from="1728988956388" duration="5155000" />
-      <workItem from="1729152873055" duration="2282000" />
+      <workItem from="1729152873055" duration="4463000" />
     </task>
     <task id="LOCAL-00001" summary="Principio">
       <option name="closed" value="true" />
@@ -492,7 +496,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729154974432</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="9.0">
+      <option name="closed" value="true" />
+      <created>1729157737192</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1729157737192</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -542,7 +554,7 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/EjercicioDiscord.java</url>
+          <url>file://$PROJECT_DIR$/src/ejerciciosSueltos/EjercicioDiscord.java</url>
           <line>32</line>
           <option name="timeStamp" value="11" />
         </line-breakpoint>

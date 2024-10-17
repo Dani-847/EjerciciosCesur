@@ -16,7 +16,7 @@ public class Ej4JuegoAdivinar {
         boolean ganar = false;
         int i = 1;
         while (i<=intentos&&!ganar){
-            System.out.print("Intento nº"+i+":Adivina el numero");
+            System.out.print("Intento nº"+i+":Adivina el numero ");
             respuesta = sc.nextInt();
             if (respuesta<aleatorio)
                 System.out.println("El numero es mayor");
@@ -30,6 +30,7 @@ public class Ej4JuegoAdivinar {
             System.out.println("Enhorabuena!! Has acertado");
         } else {
             System.out.println("No lo has acertado");
+            System.out.println("El numero era "+aleatorio);
         }
     }
 }

@@ -10,7 +10,7 @@ public class Ej3ArticulosEnPromocion {
         int tamanyo=sc.nextInt();
         double[] listaNumeros = new double[tamanyo];
 
-        System.out.println("Introduce el precio del "+listaNumeros.length+"º articulo.");
+        System.out.println("Introduce el precio de los "+listaNumeros.length+"º articulos.");
 
         for (int i = 0;i < listaNumeros.length;i++){
             System.out.print("Articulo Nº"+ (i+1) + ": ");

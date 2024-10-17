@@ -26,7 +26,7 @@ public class Ej2FabricaDiurnaNocturna {
             turno = sc.nextLine();
         }
         double tarifaDia = turno.equalsIgnoreCase("festivo")? 1.10:1;
-        if (turno.equalsIgnoreCase("nocturno"))
+        if (turno.equalsIgnoreCase("nocturno")&&dia.equalsIgnoreCase("festivo"))
             tarifaDia=1.15;
         System.out.println("El sueldo del trabajador es: " + (horas*tarifaTurno*tarifaDia));
     }

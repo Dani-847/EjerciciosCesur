@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="9.2">
-      <change afterPath="$PROJECT_DIR$/src/casoPractico9/Ej3ArticulosEnPromocion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="9.3">
+      <change beforePath="$PROJECT_DIR$/src/casoPractico9/Ej3ArticulosEnPromocion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico9/Ej3ArticulosEnPromocion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,31 +113,7 @@
       <workItem from="1728893505019" duration="4607000" />
       <workItem from="1728900978513" duration="1185000" />
       <workItem from="1728988956388" duration="5155000" />
-      <workItem from="1729152873055" duration="7737000" />
-    </task>
-    <task id="LOCAL-00007" summary="1.4">
-      <option name="closed" value="true" />
-      <created>1727951513033</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1727951513033</updated>
-    </task>
-    <task id="LOCAL-00008" summary="1.4">
-      <option name="closed" value="true" />
-      <created>1727951697988</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1727951697988</updated>
-    </task>
-    <task id="LOCAL-00009" summary="1.5">
-      <option name="closed" value="true" />
-      <created>1727952219639</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1727952219639</updated>
+      <workItem from="1729152873055" duration="8098000" />
     </task>
     <task id="LOCAL-00010" summary="1.6">
       <option name="closed" value="true" />
@@ -508,7 +483,31 @@
       <option name="project" value="LOCAL" />
       <updated>1729161435346</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="9.3">
+      <option name="closed" value="true" />
+      <created>1729162881268</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1729162881268</updated>
+    </task>
+    <task id="LOCAL-00057" summary="9.3">
+      <option name="closed" value="true" />
+      <created>1729162921267</created>
+      <option name="number" value="00057" />
+      <option name="presentableId" value="LOCAL-00057" />
+      <option name="project" value="LOCAL" />
+      <updated>1729162921267</updated>
+    </task>
+    <task id="LOCAL-00058" summary="9.3">
+      <option name="closed" value="true" />
+      <created>1729162947753</created>
+      <option name="number" value="00058" />
+      <option name="presentableId" value="LOCAL-00058" />
+      <option name="project" value="LOCAL" />
+      <updated>1729162947753</updated>
+    </task>
+    <option name="localTasksCounter" value="59" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -527,7 +526,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2.0 Caso Practico 6 completo" />
     <MESSAGE value="2.1" />
     <MESSAGE value="2.2" />
     <MESSAGE value="2.3" />
@@ -552,7 +550,8 @@
     <MESSAGE value="9.0" />
     <MESSAGE value="9.2 soluciones profesor" />
     <MESSAGE value="9.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.2" />
+    <MESSAGE value="9.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -21,15 +21,15 @@ public class Ej3ArticulosEnPromocion {
         double precioTotal = 0;
         for (int i = 0;i<listaNumeros.length;i++){
             if (listaNumeros[i]>=200){
-                precioTotal += listaNumeros[i]*1.15;
+                precioTotal += listaNumeros[i]*0.85;
                 System.out.println("El articulo Nº"+ (i+1) + " con precio, " + listaNumeros[i] + ", tuvo un descuento del 15%.");
             }
             if (listaNumeros[i]>100&&listaNumeros[i]<200){
-                precioTotal += listaNumeros[i]*1.12;
+                precioTotal += listaNumeros[i]*0.88;
                 System.out.println("El articulo Nº"+ (i+1) + " con precio, " + listaNumeros[i] + ", tuvo un descuento del 12%.");
             }
             if (listaNumeros[i]<=100){
-                precioTotal += listaNumeros[i]*1.1;
+                precioTotal += listaNumeros[i]*0.9;
                 System.out.println("El articulo Nº"+ (i+1) + " con precio, " + listaNumeros[i] + ", tuvo un descuento del 10%.");
             }
         }

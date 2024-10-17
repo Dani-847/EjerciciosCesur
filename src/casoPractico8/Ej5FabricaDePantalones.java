@@ -41,10 +41,10 @@ public class Ej5FabricaDePantalones {
         }
 
         if (talla==32||talla==36){
-            resultado+= (resultado*0.04);
+            resultado+= (resultado*1.04);
         }
-        System.out.println("El precio total es: "+(resultado*1.3));
-        System.out.println("El precio finalde venta por unidad es: "+resultado/cantidad);
+        System.out.println("La ganancia es: "+(resultado*0.3));
+        System.out.println("El precio total es: "+resultado*1.3);
 
 
     }

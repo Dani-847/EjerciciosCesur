@@ -1,3 +1,5 @@
+package ejerciciosSueltos;
+
 import java.util.Scanner;
 
 public class EjercicioDiscord {

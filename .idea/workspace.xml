@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="8.5">
-      <change afterPath="$PROJECT_DIR$/src/casoPractico9/Ej1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casoPractico8/Ej5FabricaDePantalones.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico8/Ej5FabricaDePantalones.java" afterDir="false" />
-    </list>
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="9.0" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +106,7 @@
       <workItem from="1728893505019" duration="4607000" />
       <workItem from="1728900978513" duration="1185000" />
       <workItem from="1728988956388" duration="5155000" />
-      <workItem from="1729152873055" duration="1879000" />
+      <workItem from="1729152873055" duration="2282000" />
     </task>
     <task id="LOCAL-00001" summary="Principio">
       <option name="closed" value="true" />
@@ -488,7 +484,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728993862429</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="9.0">
+      <option name="closed" value="true" />
+      <created>1729154974432</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1729154974432</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -507,7 +511,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1.7" />
     <MESSAGE value="1.8" />
     <MESSAGE value="1.9" />
     <MESSAGE value="2.0 Caso Practico 6 completo" />
@@ -532,7 +535,8 @@
     <MESSAGE value="8.3" />
     <MESSAGE value="8.4" />
     <MESSAGE value="8.5" />
-    <option name="LAST_COMMIT_MESSAGE" value="8.5" />
+    <MESSAGE value="9.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="9.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

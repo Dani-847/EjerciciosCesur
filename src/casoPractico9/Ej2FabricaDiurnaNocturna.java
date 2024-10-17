@@ -8,7 +8,7 @@ public class Ej2FabricaDiurnaNocturna {
         System.out.print("Numero de horas? ");
         int horas = 0;
         horas = Integer.parseInt(sc.nextLine());
-        while (horas<=0){
+        while (horas<=0||horas>12){
             System.out.print("Horas invalidas. Numero de horas? ");
             horas = Integer.parseInt(sc.nextLine());
         }

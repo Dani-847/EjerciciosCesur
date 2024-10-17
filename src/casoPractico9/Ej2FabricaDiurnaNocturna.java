@@ -22,7 +22,7 @@ public class Ej2FabricaDiurnaNocturna {
         String dia = sc.nextLine();
         while (!(dia.equalsIgnoreCase("festivo"))&&!(dia.equalsIgnoreCase("laborable"))) {
             System.out.print("Dia invalido. Dia(Festivo, Laborable)? ");
-            turno = sc.nextLine();
+            dia = sc.nextLine();
         }
 
         double tarifaFinal = turno.equals("diurno")? 10:13.5;

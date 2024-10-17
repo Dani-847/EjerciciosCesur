@@ -55,6 +55,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico8\SolucionesProfesor" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Prueba" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ejerciciosSueltos.Prueba" />
@@ -106,23 +111,7 @@
       <workItem from="1728893505019" duration="4607000" />
       <workItem from="1728900978513" duration="1185000" />
       <workItem from="1728988956388" duration="5155000" />
-      <workItem from="1729152873055" duration="5746000" />
-    </task>
-    <task id="LOCAL-00004" summary="1.2">
-      <option name="closed" value="true" />
-      <created>1727949200913</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1727949200913</updated>
-    </task>
-    <task id="LOCAL-00005" summary="1.4">
-      <option name="closed" value="true" />
-      <created>1727949297916</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1727949297916</updated>
+      <workItem from="1729152873055" duration="6090000" />
     </task>
     <task id="LOCAL-00006" summary="1.4">
       <option name="closed" value="true" />
@@ -500,7 +489,23 @@
       <option name="project" value="LOCAL" />
       <updated>1729160681769</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="9.2 soluciones profesor">
+      <option name="closed" value="true" />
+      <created>1729160947545</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1729160947545</updated>
+    </task>
+    <task id="LOCAL-00054" summary="9.2">
+      <option name="closed" value="true" />
+      <created>1729161047743</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1729161047743</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -519,7 +524,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="1.9" />
     <MESSAGE value="2.0 Caso Practico 6 completo" />
     <MESSAGE value="2.1" />
     <MESSAGE value="2.2" />
@@ -543,6 +547,7 @@
     <MESSAGE value="8.4" />
     <MESSAGE value="8.5" />
     <MESSAGE value="9.0" />
+    <MESSAGE value="9.2 soluciones profesor" />
     <MESSAGE value="9.2" />
     <option name="LAST_COMMIT_MESSAGE" value="9.2" />
   </component>

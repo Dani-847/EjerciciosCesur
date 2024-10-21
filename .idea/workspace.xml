@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="9.4">
-      <change afterPath="$PROJECT_DIR$/src/casoPractico10/Ej1TipoDeTriangulo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="10.1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,15 +112,7 @@
       <workItem from="1728900978513" duration="1185000" />
       <workItem from="1728988956388" duration="5155000" />
       <workItem from="1729152873055" duration="12656000" />
-      <workItem from="1729498283419" duration="1143000" />
-    </task>
-    <task id="LOCAL-00016" summary="2.1">
-      <option name="closed" value="true" />
-      <created>1727957268049</created>
-      <option name="number" value="00016" />
-      <option name="presentableId" value="LOCAL-00016" />
-      <option name="project" value="LOCAL" />
-      <updated>1727957268049</updated>
+      <workItem from="1729498283419" duration="1566000" />
     </task>
     <task id="LOCAL-00017" summary="2.1">
       <option name="closed" value="true" />
@@ -509,7 +498,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729167344438</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="10.1">
+      <option name="closed" value="true" />
+      <created>1729499859608</created>
+      <option name="number" value="00065" />
+      <option name="presentableId" value="LOCAL-00065" />
+      <option name="project" value="LOCAL" />
+      <updated>1729499859608</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -528,7 +525,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="2.2" />
     <MESSAGE value="2.3" />
     <MESSAGE value="7.0 Caso practico 7" />
     <MESSAGE value="7.1 Añadidas soluciones del profesor" />
@@ -553,7 +549,8 @@
     <MESSAGE value="9.2" />
     <MESSAGE value="9.3" />
     <MESSAGE value="9.4" />
-    <option name="LAST_COMMIT_MESSAGE" value="9.4" />
+    <MESSAGE value="10.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="10.1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

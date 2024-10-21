@@ -17,9 +17,9 @@ public class Ej1TipoDeTriangulo {
         double mayor = Math.max(Math.max(A, B), C);
         double medio = A+B+C-menor-mayor;
 
-        if (Math.pow(menor,2)+Math.pow(medio,2)==Math.pow(mayor,2))
+        if ((Math.pow(menor,2)+Math.pow(medio,2))==Math.pow(mayor,2))
             System.out.println("Triangulo rectangulo");
-        else if (menor==medio)
+        else if (menor==medio&&medio!=mayor)
             System.out.println("Triangulo rectangulo");
         else if (menor==medio&&medio==mayor)
             System.out.println("Triangulo equilatero");

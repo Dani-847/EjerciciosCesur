@@ -41,13 +41,14 @@ public class Ej3AvaroBank {
             System.out.print("Pago que se realiza este mes? ");
             eM = Integer.parseInt(sc.nextLine());
         }
+        sA=sA-mA-eM;
         cP=cP+cR-eM;
         if (eM<pagoNoInteres)
             cP = cP * 1.12;
         if (eM<pagoMinimo)
             cP+=200;
 
-        System.out.println("Una vez realizado el pago, su saldo actual es "+(sA-mA-eM));
+        System.out.println("Una vez realizado el pago, su saldo actual es "+sA);
         System.out.println("La cantidad pendiente de pago de sus compras es " + cP);
     }
 }

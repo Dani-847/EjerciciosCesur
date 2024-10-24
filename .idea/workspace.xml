@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="11.2">
-      <change afterPath="$PROJECT_DIR$/src/casoPractico11/Ej3H_M_S.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="11.3">
+      <change afterPath="$PROJECT_DIR$/src/casoPractico11/Ej4SumaAleatoria.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -118,15 +118,7 @@
       <workItem from="1729152873055" duration="12656000" />
       <workItem from="1729498283419" duration="6244000" />
       <workItem from="1729592973703" duration="6802000" />
-      <workItem from="1729756276842" duration="8868000" />
-    </task>
-    <task id="LOCAL-00031" summary="7.9">
-      <option name="closed" value="true" />
-      <created>1728388989148</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1728388989148</updated>
+      <workItem from="1729756276842" duration="10244000" />
     </task>
     <task id="LOCAL-00032" summary="7.10">
       <option name="closed" value="true" />
@@ -512,7 +504,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729766630100</updated>
     </task>
-    <option name="localTasksCounter" value="80" />
+    <task id="LOCAL-00080" summary="11.3">
+      <option name="closed" value="true" />
+      <created>1729768334409</created>
+      <option name="number" value="00080" />
+      <option name="presentableId" value="LOCAL-00080" />
+      <option name="project" value="LOCAL" />
+      <updated>1729768334409</updated>
+    </task>
+    <option name="localTasksCounter" value="81" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -531,7 +531,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="7.5" />
     <MESSAGE value="7.6" />
     <MESSAGE value="7.7" />
     <MESSAGE value="7.8" />
@@ -556,7 +555,8 @@
     <MESSAGE value="10.4" />
     <MESSAGE value="11.1" />
     <MESSAGE value="11.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.2" />
+    <MESSAGE value="11.3" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

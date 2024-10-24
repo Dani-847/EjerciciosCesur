@@ -10,8 +10,9 @@ public class Ej2LanzamientoDado {
         System.out.print("¿Cuántas veces lazo el dado? ");
         int veces = sc.nextInt();
         int n1 = 0, n2 = 0, n3 = 0, n4 = 0, n5 = 0, n6 = 0;
+        int aleatorio = 0;
         for (int i = 1; i <= veces; i++) {
-            int aleatorio = r.nextInt(6) + 1;
+            aleatorio = r.nextInt(6) + 1;
             switch (aleatorio) {
                 case 1 -> n1++;
                 case 2 -> n2++;

@@ -14,7 +14,6 @@ public class Ej4SumaAleatoria {
         int suma = dado1+dado2;
         int numero = 0;
         int intentos = 1;
-        boolean ganar = false;
         do {
             System.out.print("Intento nº"+intentos+": ");
             numero = sc.nextInt();

@@ -1,3 +1,5 @@
+package casoPractico10.solucionesProfesor;
+
 import java.util.Random;
 import java.util.Scanner;
 

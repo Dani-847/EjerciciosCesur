@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="11.4">
-      <change afterPath="$PROJECT_DIR$/src/ejerciciosSueltos/adas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/casoPractico11/Ej4SumaAleatoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico11/Ej4SumaAleatoria.java" afterDir="false" />
-    </list>
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="11.4" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,6 +57,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico10\solucionesProfesor" />
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico9\solucionesProfesor" />
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico8\SolucionesProfesor" />
     </key>
@@ -119,15 +116,7 @@
       <workItem from="1729152873055" duration="12656000" />
       <workItem from="1729498283419" duration="6244000" />
       <workItem from="1729592973703" duration="6802000" />
-      <workItem from="1729756276842" duration="11123000" />
-    </task>
-    <task id="LOCAL-00033" summary="7.11">
-      <option name="closed" value="true" />
-      <created>1728553891064</created>
-      <option name="number" value="00033" />
-      <option name="presentableId" value="LOCAL-00033" />
-      <option name="project" value="LOCAL" />
-      <updated>1728553891064</updated>
+      <workItem from="1729756276842" duration="11711000" />
     </task>
     <task id="LOCAL-00034" summary="7.11">
       <option name="closed" value="true" />
@@ -513,7 +502,15 @@
       <option name="project" value="LOCAL" />
       <updated>1729769635831</updated>
     </task>
-    <option name="localTasksCounter" value="82" />
+    <task id="LOCAL-00082" summary="11.4">
+      <option name="closed" value="true" />
+      <created>1729770882965</created>
+      <option name="number" value="00082" />
+      <option name="presentableId" value="LOCAL-00082" />
+      <option name="project" value="LOCAL" />
+      <updated>1729770882965</updated>
+    </task>
+    <option name="localTasksCounter" value="83" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

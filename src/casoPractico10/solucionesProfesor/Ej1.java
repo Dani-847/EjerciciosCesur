@@ -1,3 +1,5 @@
+package casoPractico10.solucionesProfesor;
+
 import java.util.Scanner;
 
 public class Ej1 {

@@ -8,7 +8,9 @@ public class CuentaBancariaTest {
         c1.retirar(1.2);
         c2.depositar(122);
         c2.retirar(1.2);
-        c1.mostrarSaldo();
-        c2.mostrarSaldo();
+
+
+        System.out.println(c1.mostrarSaldo());
+        System.out.println(c2.mostrarSaldo());
     }
 }

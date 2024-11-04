@@ -1,4 +1,4 @@
-package poo;
+package pooCasoPractico1;
 
 public class Coche {
     private String modelo;

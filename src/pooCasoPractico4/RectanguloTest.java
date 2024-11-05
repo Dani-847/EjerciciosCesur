@@ -4,7 +4,7 @@ import pooCasoPractico3.Libro;
 
 public class RectanguloTest {
     public static void main(String[] args) {
-        Rectangulo r1 = new Rectangulo(2,4);
+        Rectangulo r1 = new Rectangulo(0,4);
         Rectangulo r2 = new Rectangulo(2.5,12.5);
 
 

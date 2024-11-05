@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO 2.0">
-      <change afterPath="$PROJECT_DIR$/src/pooCasoPractico3/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooCasoPractico3/LibroTest.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO 3.0">
+      <change afterPath="$PROJECT_DIR$/src/pooCasoPractico4/Rectangulo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooCasoPractico4/RectanguloTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pooCasoPractico2/CuentaBancariaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooCasoPractico2/CuentaBancariaTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,15 +139,8 @@
       <workItem from="1730106353848" duration="6981000" />
       <workItem from="1730201700516" duration="3506000" />
       <workItem from="1730711223284" duration="2197000" />
-      <workItem from="1730713666622" duration="1994000" />
-    </task>
-    <task id="LOCAL-00038" summary="8.0">
-      <option name="closed" value="true" />
-      <created>1728558576026</created>
-      <option name="number" value="00038" />
-      <option name="presentableId" value="LOCAL-00038" />
-      <option name="project" value="LOCAL" />
-      <updated>1728558576026</updated>
+      <workItem from="1730713666622" duration="3439000" />
+      <workItem from="1730806851381" duration="1093000" />
     </task>
     <task id="LOCAL-00039" summary="8.0">
       <option name="closed" value="true" />
@@ -534,7 +526,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730713052074</updated>
     </task>
-    <option name="localTasksCounter" value="87" />
+    <task id="LOCAL-00087" summary="POO 3.0">
+      <option name="closed" value="true" />
+      <created>1730718629132</created>
+      <option name="number" value="00087" />
+      <option name="presentableId" value="LOCAL-00087" />
+      <option name="project" value="LOCAL" />
+      <updated>1730718629132</updated>
+    </task>
+    <option name="localTasksCounter" value="88" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -553,7 +553,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="7.10" />
     <MESSAGE value="7.11" />
     <MESSAGE value="8.0" />
     <MESSAGE value="8.1" />
@@ -578,7 +577,8 @@
     <MESSAGE value="11.5" />
     <MESSAGE value="11.9 Soluciones profesor cP11" />
     <MESSAGE value="POO 2.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO 2.0" />
+    <MESSAGE value="POO 3.0" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO 3.0" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

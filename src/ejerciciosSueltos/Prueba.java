@@ -23,6 +23,7 @@ public class Prueba {
 
 
 
+
         //SWITCH EN INTERVALO
         /*
         Scanner sc = new Scanner(System.in);

@@ -11,6 +11,6 @@ public class Main {
         x = new Humano("Homero", (byte) 34);
         y = new Humano("Bart", (byte) 9);
 
-        System.out.println(x.mayor(y));
+        System.out.println(((Humano) x).mayor(((Humano) y)));
     }
 }

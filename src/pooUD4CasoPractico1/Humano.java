@@ -15,8 +15,8 @@ public class Humano extends SerVivo {
     public boolean equals(Humano otro) {
         return super.equals(otro)&&(this.nombre.equals(otro.getNombre()));
     }
-    public SerVivo mayor(SerVivo otro) {
-        return (this.nombre.length() > otro.getEdad())&&(this.getEdad() > otro.getEdad()) ? this : otro;
+    public SerVivo mayor(Humano otro) {
+        return (this.nombre.length() > otro.getNombre().length())&&(this.getEdad() > otro.getEdad()) ? this : otro;
     }
     @Override
     public String toString() {

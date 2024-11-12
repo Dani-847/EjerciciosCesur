@@ -6,6 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD4CP1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pooUD4CasoPractico1/Humano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico1/Humano.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pooUD4CasoPractico1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,23 +161,7 @@
       <workItem from="1730975911769" duration="966000" />
       <workItem from="1731063081719" duration="52000" />
       <workItem from="1731317528540" duration="1944000" />
-      <workItem from="1731411515185" duration="2349000" />
-    </task>
-    <task id="LOCAL-00042" summary="8.2">
-      <option name="closed" value="true" />
-      <created>1728893928767</created>
-      <option name="number" value="00042" />
-      <option name="presentableId" value="LOCAL-00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1728893928767</updated>
-    </task>
-    <task id="LOCAL-00043" summary="8.2">
-      <option name="closed" value="true" />
-      <created>1728894085724</created>
-      <option name="number" value="00043" />
-      <option name="presentableId" value="LOCAL-00043" />
-      <option name="project" value="LOCAL" />
-      <updated>1728894085724</updated>
+      <workItem from="1731411515185" duration="4563000" />
     </task>
     <task id="LOCAL-00044" summary="8.3">
       <option name="closed" value="true" />
@@ -554,7 +539,23 @@
       <option name="project" value="LOCAL" />
       <updated>1731413456853</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="POO UD4CP1">
+      <option name="closed" value="true" />
+      <created>1731413911000</created>
+      <option name="number" value="00091" />
+      <option name="presentableId" value="LOCAL-00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1731413911000</updated>
+    </task>
+    <task id="LOCAL-00092" summary="POO UD4CP1">
+      <option name="closed" value="true" />
+      <created>1731414167730</created>
+      <option name="number" value="00092" />
+      <option name="presentableId" value="LOCAL-00092" />
+      <option name="project" value="LOCAL" />
+      <updated>1731414167730</updated>
+    </task>
+    <option name="localTasksCounter" value="93" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO 5.0">
-      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico1/Humano.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico1/SerVivo.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD4CP1">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ejerciciosSueltos/Prueba.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ejerciciosSueltos/Prueba.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pooUD4CasoPractico1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,13 +66,26 @@
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico8\SolucionesProfesor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CuentaBancariaTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CuentaBancariaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pooCasoPractico2.CuentaBancariaTest" />
       <module name="EjerciciosJavaCesur" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="pooCasoPractico2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="pooUD4CasoPractico1.Main" />
+      <module name="EjerciciosJavaCesur" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="pooUD4CasoPractico1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -91,6 +102,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CuentaBancariaTest" />
         <item itemvalue="Application.Prueba" />
       </list>
@@ -148,15 +160,7 @@
       <workItem from="1730975911769" duration="966000" />
       <workItem from="1731063081719" duration="52000" />
       <workItem from="1731317528540" duration="1944000" />
-      <workItem from="1731411515185" duration="1481000" />
-    </task>
-    <task id="LOCAL-00041" summary="8.1">
-      <option name="closed" value="true" />
-      <created>1728562880308</created>
-      <option name="number" value="00041" />
-      <option name="presentableId" value="LOCAL-00041" />
-      <option name="project" value="LOCAL" />
-      <updated>1728562880308</updated>
+      <workItem from="1731411515185" duration="2349000" />
     </task>
     <task id="LOCAL-00042" summary="8.2">
       <option name="closed" value="true" />
@@ -542,7 +546,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730811136974</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="POO UD4CP1">
+      <option name="closed" value="true" />
+      <created>1731413456853</created>
+      <option name="number" value="00090" />
+      <option name="presentableId" value="LOCAL-00090" />
+      <option name="project" value="LOCAL" />
+      <updated>1731413456853</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -561,7 +573,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="8.1" />
     <MESSAGE value="8.2" />
     <MESSAGE value="8.3" />
     <MESSAGE value="8.4" />
@@ -586,7 +597,8 @@
     <MESSAGE value="POO 3.0" />
     <MESSAGE value="POO 4.0" />
     <MESSAGE value="POO 5.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO 5.0" />
+    <MESSAGE value="POO UD4CP1" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO UD4CP1" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

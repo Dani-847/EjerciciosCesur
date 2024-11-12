@@ -13,7 +13,7 @@ public class Humano extends SerVivo {
         this.nombre = nombre;
     }
     public boolean equals(Humano otro) {
-        return super.equals(otro);
+        return super.equals(otro)&&(this.nombre.equals(otro.getNombre()));
     }
     public SerVivo mayor(SerVivo otro) {
         return (this.nombre.length() > otro.getEdad())&&(this.getEdad() > otro.getEdad()) ? this : otro;

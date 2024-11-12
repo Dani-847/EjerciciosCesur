@@ -8,9 +8,9 @@ public class Main {
 
         System.out.println(y.mayor(x));
 
-        Humano humano1 = new Humano("Homero", (byte) 34);
-        Humano humano2 = new Humano("Bart", (byte) 9);
+        x = new Humano("Homero", (byte) 34);
+        y = new Humano("Bart", (byte) 9);
 
-        System.out.println(humano2.mayor(humano1));
+        System.out.println(x.mayor(y));
     }
 }

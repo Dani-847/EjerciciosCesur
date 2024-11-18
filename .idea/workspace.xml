@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD4CP1">
+      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico2/Cuenta.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico2/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico2/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pooUD4CasoPractico1/Humano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico1/Humano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pooUD4CasoPractico1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico1/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +68,7 @@
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico8\SolucionesProfesor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager">
     <configuration name="CuentaBancariaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pooCasoPractico2.CuentaBancariaTest" />
       <module name="EjerciciosJavaCesur" />
@@ -161,15 +162,8 @@
       <workItem from="1730975911769" duration="966000" />
       <workItem from="1731063081719" duration="52000" />
       <workItem from="1731317528540" duration="1944000" />
-      <workItem from="1731411515185" duration="4563000" />
-    </task>
-    <task id="LOCAL-00044" summary="8.3">
-      <option name="closed" value="true" />
-      <created>1728896062591</created>
-      <option name="number" value="00044" />
-      <option name="presentableId" value="LOCAL-00044" />
-      <option name="project" value="LOCAL" />
-      <updated>1728896062591</updated>
+      <workItem from="1731411515185" duration="5201000" />
+      <workItem from="1731921186724" duration="2530000" />
     </task>
     <task id="LOCAL-00045" summary="8.4">
       <option name="closed" value="true" />
@@ -555,7 +549,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731414167730</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="POO UD4CP1">
+      <option name="closed" value="true" />
+      <created>1731416165800</created>
+      <option name="number" value="00093" />
+      <option name="presentableId" value="LOCAL-00093" />
+      <option name="project" value="LOCAL" />
+      <updated>1731416165800</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

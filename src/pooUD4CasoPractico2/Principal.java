@@ -10,6 +10,6 @@ public class Principal {
         System.out.println(c2);
         System.out.println(p2);
         System.out.println(p1);
-        c1.transaccion(782136, "ingresar");
+        c1.transaccion(782136, "ingreso");
     }
 }

@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD4CP2">
-      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico3/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico3/ProductoCongelado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico3/ProductoFresco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico3/ProductoRefrigerado.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico3/TestHerencia.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD4CP3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pooUD4CasoPractico2/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico2/Principal.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,15 +160,8 @@
       <workItem from="1731063081719" duration="52000" />
       <workItem from="1731317528540" duration="1944000" />
       <workItem from="1731411515185" duration="5201000" />
-      <workItem from="1731921186724" duration="4509000" />
-    </task>
-    <task id="LOCAL-00046" summary="8.5">
-      <option name="closed" value="true" />
-      <created>1728992280484</created>
-      <option name="number" value="00046" />
-      <option name="presentableId" value="LOCAL-00046" />
-      <option name="project" value="LOCAL" />
-      <updated>1728992280484</updated>
+      <workItem from="1731921186724" duration="5343000" />
+      <workItem from="1732016601524" duration="1169000" />
     </task>
     <task id="LOCAL-00047" summary="8.5">
       <option name="closed" value="true" />
@@ -560,7 +547,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731923795996</updated>
     </task>
-    <option name="localTasksCounter" value="95" />
+    <task id="LOCAL-00095" summary="POO UD4CP3">
+      <option name="closed" value="true" />
+      <created>1731929171698</created>
+      <option name="number" value="00095" />
+      <option name="presentableId" value="LOCAL-00095" />
+      <option name="project" value="LOCAL" />
+      <updated>1731929171698</updated>
+    </task>
+    <option name="localTasksCounter" value="96" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -579,7 +574,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="8.3" />
     <MESSAGE value="8.4" />
     <MESSAGE value="8.5" />
     <MESSAGE value="9.0" />
@@ -604,7 +598,8 @@
     <MESSAGE value="POO 5.0" />
     <MESSAGE value="POO UD4CP1" />
     <MESSAGE value="POO UD4CP2" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO UD4CP2" />
+    <MESSAGE value="POO UD4CP3" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO UD4CP3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -13,4 +13,10 @@ public class Truck extends Car{
             return super.getSalePrice() * 0.8;
         }
     }
+    @Override
+    public String toString() {
+        return super.toString() + "Truck{" +
+                "weight=" + weight +
+                '}';
+    }
 }

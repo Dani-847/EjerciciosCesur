@@ -11,4 +11,11 @@ public class Ford extends Car{
     public double getSalePrice() {
         return super.getSalePrice() - manufacturerDiscount;
     }
+    @Override
+    public String toString() {
+        return super.toString() + "Ford{" +
+                "year=" + year +
+                ", manufacturerDiscount=" + manufacturerDiscount +
+                '}';
+    }
 }

@@ -12,5 +12,10 @@ public class MyOwnAutoShop {
         System.out.println("Ford2 sale price: " + ford2.getSalePrice());
         System.out.println("Car sale price: " + car.getSalePrice());
         System.out.println("Truck sale price: " + truck.getSalePrice());
+        System.out.println(sedan);
+        System.out.println(ford1);
+        System.out.println(ford2);
+        System.out.println(car);
+        System.out.println(truck);
     }
 }

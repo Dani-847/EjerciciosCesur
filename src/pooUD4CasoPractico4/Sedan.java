@@ -13,4 +13,10 @@ public class Sedan extends Car {
             return super.getSalePrice() * 0.9;
         }
     }
+    @Override
+    public String toString() {
+        return super.toString() + "Sedan{" +
+                "length=" + length +
+                '}';
+    }
 }

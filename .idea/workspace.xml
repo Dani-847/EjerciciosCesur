@@ -4,13 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD4CP5">
-      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico6/Cilindro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico6/Circulo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico6/Punto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico6/TestCilindro.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD4CP6">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pooUD4CasoPractico5/Programa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico5/Programa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico0_INTRODUCCION/ejemplo1Inicio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPractico0/ejemplo1Inicio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico10/Ej1TipoDeTriangulo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoA/Ej1TipoDeTriangulo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico10/Ej2Vinicultores.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoA/Ej2Vinicultores.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico10/Ej3AvaroBank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoA/Ej3AvaroBank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico10/Ej4PapelPiedraTijeras.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoA/Ej4PapelPiedraTijeras.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico10/solucionesProfesor/Ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoA/solucionesProfesor/Ej1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico10/solucionesProfesor/Ej2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoA/solucionesProfesor/Ej2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico10/solucionesProfesor/Ej3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoA/solucionesProfesor/Ej3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico10/solucionesProfesor/Ej4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoA/solucionesProfesor/Ej4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico11/Ej1Fahrenheit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoB/Ej1Fahrenheit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico11/Ej2LanzamientoDado.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoB/Ej2LanzamientoDado.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico11/Ej3H_M_S.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoB/Ej3H_M_S.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico11/Ej4SumaAleatoria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoB/Ej4SumaAleatoria.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico11/Ej5Narcisita.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoB/Ej5Narcisita.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico11/solucionesProfesor/Ej1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoB/solucionesProfesor/Ej1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico11/solucionesProfesor/Ej2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoB/solucionesProfesor/Ej2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico11/solucionesProfesor/Ej3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoB/solucionesProfesor/Ej3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico11/solucionesProfesor/Ej4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoB/solucionesProfesor/Ej4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/casoPractico11/solucionesProfesor/Ej5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/casoPracticoB/solucionesProfesor/Ej5.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,11 +86,11 @@
   </component>
   <component name="RunManager">
     <configuration name="CuentaBancariaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="pooCasoPractico2.CuentaBancariaTest" />
+      <option name="MAIN_CLASS_NAME" value="pooUD3CasoPractico2.CuentaBancariaTest" />
       <module name="EjerciciosJavaCesur" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="pooCasoPractico2.*" />
+          <option name="PATTERN" value="pooUD3CasoPractico2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,23 +181,7 @@
       <workItem from="1731411515185" duration="5201000" />
       <workItem from="1731921186724" duration="5343000" />
       <workItem from="1732016601524" duration="4879000" />
-      <workItem from="1732180875619" duration="9325000" />
-    </task>
-    <task id="LOCAL-00056" summary="9.3">
-      <option name="closed" value="true" />
-      <created>1729162881268</created>
-      <option name="number" value="00056" />
-      <option name="presentableId" value="LOCAL-00056" />
-      <option name="project" value="LOCAL" />
-      <updated>1729162881268</updated>
-    </task>
-    <task id="LOCAL-00057" summary="9.3">
-      <option name="closed" value="true" />
-      <created>1729162921267</created>
-      <option name="number" value="00057" />
-      <option name="presentableId" value="LOCAL-00057" />
-      <option name="project" value="LOCAL" />
-      <updated>1729162921267</updated>
+      <workItem from="1732180875619" duration="10543000" />
     </task>
     <task id="LOCAL-00058" summary="9.3">
       <option name="closed" value="true" />
@@ -561,7 +559,23 @@
       <option name="project" value="LOCAL" />
       <updated>1732189005782</updated>
     </task>
-    <option name="localTasksCounter" value="105" />
+    <task id="LOCAL-00105" summary="POO UD4CP6">
+      <option name="closed" value="true" />
+      <created>1732192450767</created>
+      <option name="number" value="00105" />
+      <option name="presentableId" value="LOCAL-00105" />
+      <option name="project" value="LOCAL" />
+      <updated>1732192450767</updated>
+    </task>
+    <task id="LOCAL-00106" summary="POO UD4CP6">
+      <option name="closed" value="true" />
+      <created>1732193004111</created>
+      <option name="number" value="00106" />
+      <option name="presentableId" value="LOCAL-00106" />
+      <option name="project" value="LOCAL" />
+      <updated>1732193004111</updated>
+    </task>
+    <option name="localTasksCounter" value="107" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -580,7 +594,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="9.0" />
     <MESSAGE value="9.2 soluciones profesor" />
     <MESSAGE value="9.2" />
     <MESSAGE value="9.3" />
@@ -605,7 +618,8 @@
     <MESSAGE value="POO UD4CP3" />
     <MESSAGE value="POO UD4CP4" />
     <MESSAGE value="POO UD4CP5" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO UD4CP5" />
+    <MESSAGE value="POO UD4CP6" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO UD4CP6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -616,7 +630,7 @@
           <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/casoPractico10/solucionesProfesor/Ej4.java</url>
+          <url>file://$PROJECT_DIR$/src/casoPracticoA/solucionesProfesor/Ej4.java</url>
           <line>26</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>

@@ -25,7 +25,6 @@ public class Punto {
         x = dx;
         y = dy;
     }
-    @Override
     public String toString() {
         return "Punto {x=" + x + ", y=" + y + "}";
     }

@@ -19,6 +19,6 @@ public class Administrativo extends Empleado{
     @Override
     public void getAtributos() {
         super.getAtributos();
-        System.out.println(", antiguedad=" + antiguedad + "]");
+        System.out.println(" Administrativo{antiguedad=" + antiguedad + "}");
     }
 }

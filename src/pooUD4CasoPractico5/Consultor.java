@@ -19,6 +19,6 @@ public class Consultor extends Empleado{
     @Override
     public void getAtributos() {
         super.getAtributos();
-        System.out.println(", categoria=" + categoria + "]");
+        System.out.println(" Consultor{categoria=" + categoria + "}");
     }
 }

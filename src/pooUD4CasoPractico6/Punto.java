@@ -25,6 +25,10 @@ public class Punto {
         x = dx;
         y = dy;
     }
+    public void trasladar(Punto centro) {
+        this.setX(centro.getX());
+        this.setY(centro.getY());
+    }
     public String toString() {
         return "Punto {x=" + x + ", y=" + y + "}";
     }

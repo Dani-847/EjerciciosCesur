@@ -78,6 +78,6 @@ public class Empleado {
         return "Empleado [dni=" + dni + ", nombre=" + nombre + ", apellidos=" + apellidos + ", domicilio=" + domicilio + ", codigoPostal=" + codigoPostal + ", ciudad=" + ciudad + ", puesto=" + puesto + "]";
     }
     public void getAtributos() {
-        System.out.println(puesto.getDescripcion());
+        System.out.print("Empleado [dni=" + dni + ", nombre=" + nombre + ", apellidos=" + apellidos + ", domicilio=" + domicilio + ", codigoPostal=" + codigoPostal + ", ciudad=" + ciudad + ", puesto=" + puesto.getDescripcion() + "]");
     }
 }

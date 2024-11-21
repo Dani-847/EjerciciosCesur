@@ -1,4 +1,4 @@
-package ejerciciosSueltos;
+package zCaja;
 
 import java.util.Random;
 import java.util.Scanner;

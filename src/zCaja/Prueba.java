@@ -1,8 +1,6 @@
-package ejerciciosSueltos;
+package zCaja;
 
-import java.sql.SQLOutput;
 import java.util.Random;
-import java.util.Scanner;
 
 public class Prueba {
     public static void main(String[] args) {

@@ -8,8 +8,8 @@ public class Programa {
         Empleado administrativo;
         consultor = new Consultor("12345678A", "Juan", "Perez", "Calle Mayor 1", "28080", "Madrid", puesto1, "Senior");
         administrativo = new Administrativo("87654321B", "Maria", "Lopez", "Calle Menor 2", "28081", "Madrid", puesto2, "5 años");
-        System.out.println(consultor.toString());
-        System.out.println(administrativo.toString());
+        System.out.println(puesto1);
+        System.out.println(puesto2);
         consultor.getAtributos();
         administrativo.getAtributos();
     }

@@ -12,7 +12,7 @@ public class Vector extends Punto{
     }
 
     public boolean combinacionLineal(Vector v) {
-        return this.getX() * v.getY() == this.getY() / v.getX();
+        return this.getX() * v.getY() == this.getY() * v.getX();
     }
 
     public double componenteX() {

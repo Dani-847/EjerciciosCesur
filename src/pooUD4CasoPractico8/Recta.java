@@ -17,9 +17,13 @@ public class Recta extends Vector{
         return p.distancia(interseccion);
     }
     public Punto interseccion(Recta r) {
-        double x = (this.getY() * r.getX() - this.getX() * r.getY()) / (this.getX() * r.componenteY() - this.getY() * r.componenteX());
-        double y = (this.getX() * r.componenteY() - this.getY() * r.getX()) / (this.getX() * r.componenteY() - this.getY() * r.componenteX());
-        return new Punto(x, y);
+        //
+        double d;
+        double d1;
+        double d2;
+        double abscisa;
+        double ordenada;
+        return new Punto(abscisa, ordenada);
     }
     public Recta paralela(Punto p) {
         return new Recta(this, p);

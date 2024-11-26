@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD4CP7 y 8" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD4CP8">
+      <change beforePath="$PROJECT_DIR$/src/pooUD4CasoPractico8/Recta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooUD4CasoPractico8/Recta.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -162,15 +164,7 @@
       <workItem from="1731921186724" duration="5343000" />
       <workItem from="1732016601524" duration="4879000" />
       <workItem from="1732180875619" duration="12175000" />
-      <workItem from="1732621184813" duration="3441000" />
-    </task>
-    <task id="LOCAL-00062" summary="9.4">
-      <option name="closed" value="true" />
-      <created>1729165923872</created>
-      <option name="number" value="00062" />
-      <option name="presentableId" value="LOCAL-00062" />
-      <option name="project" value="LOCAL" />
-      <updated>1729165923872</updated>
+      <workItem from="1732621184813" duration="3952000" />
     </task>
     <task id="LOCAL-00063" summary="9.4">
       <option name="closed" value="true" />
@@ -556,7 +550,15 @@
       <option name="project" value="LOCAL" />
       <updated>1732624345964</updated>
     </task>
-    <option name="localTasksCounter" value="111" />
+    <task id="LOCAL-00111" summary="POO UD4CP8">
+      <option name="closed" value="true" />
+      <created>1732624938600</created>
+      <option name="number" value="00111" />
+      <option name="presentableId" value="LOCAL-00111" />
+      <option name="project" value="LOCAL" />
+      <updated>1732624938600</updated>
+    </task>
+    <option name="localTasksCounter" value="112" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -575,7 +577,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="9.2" />
     <MESSAGE value="9.3" />
     <MESSAGE value="9.4" />
     <MESSAGE value="10.1" />
@@ -600,7 +601,8 @@
     <MESSAGE value="POO UD4CP5" />
     <MESSAGE value="POO UD4CP6" />
     <MESSAGE value="POO UD4CP7 y 8" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO UD4CP7 y 8" />
+    <MESSAGE value="POO UD4CP8" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO UD4CP8" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

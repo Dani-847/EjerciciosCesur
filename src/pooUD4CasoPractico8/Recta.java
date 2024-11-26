@@ -1,11 +1,15 @@
 package pooUD4CasoPractico8;
 
 public class Recta extends Vector{
+    private Punto punto;
+
     public Recta (Punto p, Punto q) {
-        super(p, q);
+        super(q.getX() - p.getX(), q.getY() - p.getY());
+        this.punto = p;
     }
     public Recta (Vector v, Punto p) {
-        super(v, p);
+        super(v.getX(), v.getY());
+        this.punto = p;
     }
     public double distancia(Punto p) {
         return Math.abs(this.getX() * p.getY() - this.getY() * p.getX()) / this.modulo();

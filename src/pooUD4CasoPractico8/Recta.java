@@ -12,7 +12,9 @@ public class Recta extends Vector{
         this.punto = p;
     }
     public double distancia(Punto p) {
-        return Math.abs(this.getX() * p.getY() - this.getY() * p.getX()) / this.modulo();
+        Recta ortogonal = new Recta(this.ortogonal(),p);
+        Punto interseccion = this.interseccion(ortogonal);
+        return p.distancia(interseccion);
     }
     public Punto interseccion(Recta r) {
         double x = (this.getY() * r.getX() - this.getX() * r.getY()) / (this.getX() * r.componenteY() - this.getY() * r.componenteX());

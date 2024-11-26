@@ -25,8 +25,8 @@ public class Vector extends Punto{
     public double modulo() {
         return Math.sqrt(Math.pow(getX(), 2) + Math.pow(getY(), 2));
     }
-    public Vector ortogonal(Vector v) {
-        return new Vector(-v.getY(), v.getX());
+    public Vector ortogonal() {
+        return new Vector(-this.getY(), this.getX());
     }
     @Override
     public String toString() {

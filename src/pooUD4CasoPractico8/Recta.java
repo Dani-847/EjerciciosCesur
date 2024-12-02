@@ -31,7 +31,7 @@ public class Recta extends Vector{
         return new Recta(this, p);
     }
     public boolean paralelas(Recta r) {
-        return this.getX() * r.componenteY() == this.getY() * r.componenteX();
+        return this.getX() * r.getY() == this.getY() * r.getX();
     }
     public boolean pasa(Punto p) {
         return this.getX() * p.getY() == this.getY() * p.getX();
@@ -40,8 +40,6 @@ public class Recta extends Vector{
         return new Recta(new Vector(-this.getY(), this.getX()), p);
     }
     @Override
-    public String toString() {
-        return "Recta: " + super.toString();
-    }
+    public String toString() {        return "Recta: " + super.toString();}
 
 }

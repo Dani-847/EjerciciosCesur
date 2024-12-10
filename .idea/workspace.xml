@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD5CP1">
-      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico2/ColorBola.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico2/EjUrna.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico2/Urna.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD5CP2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -172,15 +169,7 @@
       <workItem from="1732790488418" duration="1166000" />
       <workItem from="1733130702699" duration="2902000" />
       <workItem from="1733225735454" duration="3711000" />
-      <workItem from="1733830945457" duration="2191000" />
-    </task>
-    <task id="LOCAL-00068" summary="10.2">
-      <option name="closed" value="true" />
-      <created>1729504458523</created>
-      <option name="number" value="00068" />
-      <option name="presentableId" value="LOCAL-00068" />
-      <option name="project" value="LOCAL" />
-      <updated>1729504458523</updated>
+      <workItem from="1733830945457" duration="3575000" />
     </task>
     <task id="LOCAL-00069" summary="10.3.0">
       <option name="closed" value="true" />
@@ -566,7 +555,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733138786204</updated>
     </task>
-    <option name="localTasksCounter" value="117" />
+    <task id="LOCAL-00117" summary="POO UD5CP2">
+      <option name="closed" value="true" />
+      <created>1733833274439</created>
+      <option name="number" value="00117" />
+      <option name="presentableId" value="LOCAL-00117" />
+      <option name="project" value="LOCAL" />
+      <updated>1733833274439</updated>
+    </task>
+    <option name="localTasksCounter" value="118" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -585,7 +582,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="9.4" />
     <MESSAGE value="10.1" />
     <MESSAGE value="10.2" />
     <MESSAGE value="10.3.0" />
@@ -610,7 +606,8 @@
     <MESSAGE value="POO UD4CP7 y 8" />
     <MESSAGE value="POO UD4CP8" />
     <MESSAGE value="POO UD5CP1" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO UD5CP1" />
+    <MESSAGE value="POO UD5CP2" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO UD5CP2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

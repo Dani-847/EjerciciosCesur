@@ -13,7 +13,6 @@ public class EjUrna {
             } else {
                 urna.ponerNegra();
             }
-            System.out.println(urna.getBlancas()+", "+ urna.getNegras());
         }
 
         ColorBola bolaFinal = urna.bola();

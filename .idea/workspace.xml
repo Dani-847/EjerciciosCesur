@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD5CP2">
-      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico5/ColorElectrodomestico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico5/Electrodomestico.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico5/Lavadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico5/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico5/Television.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -171,6 +175,7 @@
       <workItem from="1733130702699" duration="2902000" />
       <workItem from="1733225735454" duration="3711000" />
       <workItem from="1733830945457" duration="4589000" />
+      <workItem from="1733994639188" duration="5148000" />
     </task>
     <task id="LOCAL-00070" summary="10.3.0">
       <option name="closed" value="true" />

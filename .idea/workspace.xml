@@ -4,12 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD5CP5">
-      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico6/Biblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico6/Ejemplar.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico6/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico6/Revista.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD5CasoPractico6/TestBiblioteca.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD5CP6">
+      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico1/Persona.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico1/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico2/garaje/Garaje.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico2/main/Practica02UD06.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico2/vehiculos/Coche.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico2/vehiculos/Color.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico2/vehiculos/Moto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico2/vehiculos/Vehiculo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico3/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico3/Math2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -59,17 +64,17 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;inlay.hints&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\pooUD6CasoPractico1" />
+      <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\pooUD5CasoPractico5" />
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\pooUD4CasoPractico7" />
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico11\solucionesProfesor" />
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico10\solucionesProfesor" />
-      <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico9\solucionesProfesor" />
-      <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico8\SolucionesProfesor" />
     </key>
   </component>
   <component name="RunManager">
@@ -176,15 +181,11 @@
       <workItem from="1733225735454" duration="3711000" />
       <workItem from="1733830945457" duration="4589000" />
       <workItem from="1733994639188" duration="7822000" />
-      <workItem from="1734340009967" duration="5176000" />
-    </task>
-    <task id="LOCAL-00071" summary="10.3">
-      <option name="closed" value="true" />
-      <created>1729595959698</created>
-      <option name="number" value="00071" />
-      <option name="presentableId" value="LOCAL-00071" />
-      <option name="project" value="LOCAL" />
-      <updated>1729595959698</updated>
+      <workItem from="1734340009967" duration="6338000" />
+      <workItem from="1734434902545" duration="723000" />
+      <workItem from="1734599806539" duration="1113000" />
+      <workItem from="1734604569122" duration="2216000" />
+      <workItem from="1736413408786" duration="9394000" />
     </task>
     <task id="LOCAL-00072" summary="10.3">
       <option name="closed" value="true" />
@@ -570,7 +571,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734001041545</updated>
     </task>
-    <option name="localTasksCounter" value="120" />
+    <task id="LOCAL-00120" summary="POO UD5CP6">
+      <option name="closed" value="true" />
+      <created>1734347298300</created>
+      <option name="number" value="00120" />
+      <option name="presentableId" value="LOCAL-00120" />
+      <option name="project" value="LOCAL" />
+      <updated>1734347298300</updated>
+    </task>
+    <option name="localTasksCounter" value="121" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -589,7 +598,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="10.2" />
     <MESSAGE value="10.3.0" />
     <MESSAGE value="10.3" />
     <MESSAGE value="10.4" />
@@ -614,7 +622,8 @@
     <MESSAGE value="POO UD5CP1" />
     <MESSAGE value="POO UD5CP2" />
     <MESSAGE value="POO UD5CP5" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO UD5CP5" />
+    <MESSAGE value="POO UD5CP6" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO UD5CP6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

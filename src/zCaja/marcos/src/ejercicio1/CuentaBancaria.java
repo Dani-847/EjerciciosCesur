@@ -52,7 +52,7 @@ public class CuentaBancaria {
         return "CuentaBancaria{" +
                 "titular='" + titular + '\'' +
                 ", sueldo=" + sueldo +
-                ", gettotalDinero=" + gettotalDinero +
+                ", gettotalDinero=" + totalDinero +
                 ", tipoCuenta=" + tipoCuenta +
                 '}';
     }

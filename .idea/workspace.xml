@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD6CP3">
-      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico4/Inventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico4/Producto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico4/ProductoElectronico.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico4/ProductoRopa.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD6CP4">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -58,7 +54,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.updates&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -180,15 +176,11 @@
       <workItem from="1734599806539" duration="1113000" />
       <workItem from="1734604569122" duration="2216000" />
       <workItem from="1736413408786" duration="10162000" />
-      <workItem from="1736759450848" duration="2980000" />
-    </task>
-    <task id="LOCAL-00073" summary="10.4">
-      <option name="closed" value="true" />
-      <created>1729757134571</created>
-      <option name="number" value="00073" />
-      <option name="presentableId" value="LOCAL-00073" />
-      <option name="project" value="LOCAL" />
-      <updated>1729757134571</updated>
+      <workItem from="1736759450848" duration="2995000" />
+      <workItem from="1736772707680" duration="131000" />
+      <workItem from="1736772866696" duration="132000" />
+      <workItem from="1736773050342" duration="174000" />
+      <workItem from="1736773247286" duration="471000" />
     </task>
     <task id="LOCAL-00074" summary="10.4">
       <option name="closed" value="true" />
@@ -574,7 +566,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736428141068</updated>
     </task>
-    <option name="localTasksCounter" value="122" />
+    <task id="LOCAL-00122" summary="POO UD6CP4">
+      <option name="closed" value="true" />
+      <created>1736769322565</created>
+      <option name="number" value="00122" />
+      <option name="presentableId" value="LOCAL-00122" />
+      <option name="project" value="LOCAL" />
+      <updated>1736769322565</updated>
+    </task>
+    <option name="localTasksCounter" value="123" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -593,7 +593,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="10.3" />
     <MESSAGE value="10.4" />
     <MESSAGE value="11.1" />
     <MESSAGE value="11.2" />
@@ -618,7 +617,8 @@
     <MESSAGE value="POO UD5CP5" />
     <MESSAGE value="POO UD5CP6" />
     <MESSAGE value="POO UD6CP3" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO UD6CP3" />
+    <MESSAGE value="POO UD6CP4" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO UD6CP4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

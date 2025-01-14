@@ -11,5 +11,6 @@ public class CuentaBancaria {
         this.tipoCuenta = tipoCuenta;
     }
 
+    public void realizarTransaccion
 
 }

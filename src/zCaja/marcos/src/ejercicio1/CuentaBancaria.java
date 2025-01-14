@@ -3,13 +3,13 @@ package zCaja.marcos.src.ejercicio1;
 public class CuentaBancaria {
     private final String titular;
     private final double sueldo;
-    private double gettotalDinero;
+    private double totalDinero;
     private TipoCuenta tipoCuenta;
 
-    public CuentaBancaria(String titular, double sueldo, double gettotalDinero, TipoCuenta tipoCuenta) {
+    public CuentaBancaria(String titular, double sueldo, double totalDinero, TipoCuenta tipoCuenta) {
         this.titular = titular;
         this.sueldo = sueldo;
-        this.gettotalDinero = gettotalDinero;
+        this.totalDinero = totalDinero;
         this.tipoCuenta = tipoCuenta;
     }
 
@@ -21,12 +21,12 @@ public class CuentaBancaria {
         return sueldo;
     }
 
-    public double getGettotalDinero() {
-        return gettotalDinero;
+    public double getTotalDinero() {
+        return totalDinero;
     }
 
-    public void setGettotalDinero(double gettotalDinero) {
-        this.gettotalDinero = gettotalDinero;
+    public void setTotalDinero(double totalDinero) {
+        this.totalDinero = totalDinero;
     }
 
     public TipoCuenta getTipoCuenta() {

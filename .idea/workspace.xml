@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD6CP4 1">
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/Ejercicio2/Biblioteca.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/Ejercicio2/Categoria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/Ejercicio2/Libro.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/Ejercicio2/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/Ejercicio3/CategoriaProductos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/Ejercicio3/Inventario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/Ejercicio3/Lote.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/Ejercicio3/Productos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/Ejercicio3/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/ejercicio1/Banco.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/ejercicio1/CuentaBancaria.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/ejercicio1/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/ejercicio1/TipoCuenta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/zCaja/marcos/CuentaBancaria.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zCaja/marcos/CuentaBancaria.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD6CP4 2">
+      <change beforePath="$PROJECT_DIR$/src/zCaja/marcos/src/ejercicio1/Banco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/zCaja/marcos/src/ejercicio1/Banco.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,15 +181,7 @@
       <workItem from="1736772866696" duration="132000" />
       <workItem from="1736773050342" duration="174000" />
       <workItem from="1736773247286" duration="471000" />
-      <workItem from="1736846481605" duration="994000" />
-    </task>
-    <task id="LOCAL-00075" summary="11.1">
-      <option name="closed" value="true" />
-      <created>1729764162257</created>
-      <option name="number" value="00075" />
-      <option name="presentableId" value="LOCAL-00075" />
-      <option name="project" value="LOCAL" />
-      <updated>1729764162257</updated>
+      <workItem from="1736846481605" duration="1299000" />
     </task>
     <task id="LOCAL-00076" summary="11.1">
       <option name="closed" value="true" />
@@ -589,7 +567,15 @@
       <option name="project" value="LOCAL" />
       <updated>1736846833580</updated>
     </task>
-    <option name="localTasksCounter" value="124" />
+    <task id="LOCAL-00124" summary="POO UD6CP4 2">
+      <option name="closed" value="true" />
+      <created>1736847538804</created>
+      <option name="number" value="00124" />
+      <option name="presentableId" value="LOCAL-00124" />
+      <option name="project" value="LOCAL" />
+      <updated>1736847538804</updated>
+    </task>
+    <option name="localTasksCounter" value="125" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -608,7 +594,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="11.1" />
     <MESSAGE value="11.2" />
     <MESSAGE value="11.3" />
     <MESSAGE value="11.4" />
@@ -633,7 +618,8 @@
     <MESSAGE value="POO UD6CP3" />
     <MESSAGE value="POO UD6CP4" />
     <MESSAGE value="POO UD6CP4 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO UD6CP4 1" />
+    <MESSAGE value="POO UD6CP4 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO UD6CP4 2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

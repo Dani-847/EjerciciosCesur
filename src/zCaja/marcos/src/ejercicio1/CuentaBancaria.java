@@ -39,9 +39,9 @@ public class CuentaBancaria {
 
     public void realizarTransaccion(double monto, int tipoTransaccion) {
         if (tipoTransaccion == 1) { //agregar
-            this.gettotalDinero += monto;
+            this.totalDinero += monto;
         } else if (tipoTransaccion == 2) { //retirar
-            this.gettotalDinero -= monto;
+            this.totalDinero -= monto;
         }
     }
 

@@ -5,6 +5,7 @@ public class Banco {
     int capacidad;
 
     public Banco(int capacidad) {
+        this.capacidad = capacidad;
         cuentas = new CuentaBancaria[capacidad];
     }
 

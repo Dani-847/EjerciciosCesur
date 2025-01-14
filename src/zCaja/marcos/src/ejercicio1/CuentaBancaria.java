@@ -45,7 +45,15 @@ public class CuentaBancaria {
         }
     }
 
-
+    public final void calcularInteres() {
+        if (this.tipoCuenta == TipoCuenta.AHORRO) {
+            this.totalDinero += this.totalDinero * 0.05;
+        } else if (this.tipoCuenta == TipoCuenta.CORRIENTE) {
+            this.totalDinero += this.totalDinero * 0.03;
+        } else if (this.tipoCuenta == TipoCuenta.EMPRESARIAL) {
+            this.totalDinero += this.totalDinero * 0.01;
+        }
+    }
 
     @Override
     public String toString() {

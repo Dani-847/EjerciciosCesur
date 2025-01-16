@@ -1,7 +1,5 @@
 package zCosas.marcos.src.Ejercicio2;
 
-import Ejercicio2.Biblioteca;
-import Ejercicio2.Libro;
 
 public class Test {
     public static void main(String[] args) {

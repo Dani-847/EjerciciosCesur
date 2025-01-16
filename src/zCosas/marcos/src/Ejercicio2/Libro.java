@@ -1,4 +1,4 @@
-package Ejercicio2;
+package zCosas.marcos.src.Ejercicio2;
 
 public class Libro {
      private String titulo;

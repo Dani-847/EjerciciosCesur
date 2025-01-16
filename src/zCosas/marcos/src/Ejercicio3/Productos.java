@@ -1,6 +1,5 @@
-package Ejercicio3;
+package zCosas.marcos.src.Ejercicio3;
 
-import Ejercicio2.Categoria;
 
 public class Productos {
     private String nombre;
@@ -21,11 +20,11 @@ public class Productos {
         this.nombre = nombre;
     }
 
-    public Categoria getCategoria() {
+    public CategoriaProductos getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(Categoria categoria) {
+    public void setCategoria(CategoriaProductos categoria) {
         this.categoria = categoria;
     }
 

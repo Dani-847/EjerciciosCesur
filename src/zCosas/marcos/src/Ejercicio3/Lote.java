@@ -1,4 +1,4 @@
-package Ejercicio3;
+package zCosas.marcos.src.Ejercicio3;
 
 public class Lote {
     private int fechaLlegada;

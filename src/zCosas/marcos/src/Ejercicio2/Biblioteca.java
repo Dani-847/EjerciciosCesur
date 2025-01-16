@@ -1,4 +1,4 @@
-package Ejercicio2;
+package zCosas.marcos.src.Ejercicio2;
 
 public class Biblioteca {
     int [] libro = new int[0];

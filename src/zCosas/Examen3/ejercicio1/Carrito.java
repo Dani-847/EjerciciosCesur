@@ -40,7 +40,9 @@ public class Carrito {
         double precioTotal = 0;
         for (int i = 0; i < contador; i++) {
             precioTotal += productos[i].getPrecio()*0.90;
+            System.out.println(productos[i].getNombre() + " - Precio final: " + productos[i].getPrecio()*0.90);
         }
+        System.out.println("Total: " + precioTotal);
         return precioTotal;
     }
 

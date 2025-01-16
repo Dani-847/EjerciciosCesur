@@ -183,14 +183,7 @@
       <workItem from="1736856906607" duration="1187000" />
       <workItem from="1737017478726" duration="2307000" />
       <workItem from="1737024891875" duration="35000" />
-    </task>
-    <task id="LOCAL-00087" summary="POO 3.0">
-      <option name="closed" value="true" />
-      <created>1730718629132</created>
-      <option name="number" value="00087" />
-      <option name="presentableId" value="LOCAL-00087" />
-      <option name="project" value="LOCAL" />
-      <updated>1730718629132</updated>
+      <workItem from="1737026534395" duration="16000" />
     </task>
     <task id="LOCAL-00088" summary="POO 4.0">
       <option name="closed" value="true" />
@@ -576,7 +569,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737024912016</updated>
     </task>
-    <option name="localTasksCounter" value="136" />
+    <task id="LOCAL-00136" summary="POO UD6CP4">
+      <option name="closed" value="true" />
+      <created>1737026544247</created>
+      <option name="number" value="00136" />
+      <option name="presentableId" value="LOCAL-00136" />
+      <option name="project" value="LOCAL" />
+      <updated>1737026544247</updated>
+    </task>
+    <option name="localTasksCounter" value="137" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

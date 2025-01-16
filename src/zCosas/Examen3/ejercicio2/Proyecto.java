@@ -28,20 +28,12 @@ public class Proyecto {
         this.estado = estado;
     }
 
-    public static void setPresupuesto(double presupuesto) {
-
-    }
-
     public Tarea[] getTareas() {
         return tareas;
     }
 
     public void agregarTarea(int posicion, Tarea tarea) {
         this.tareas[posicion] = tarea;
-        actualizarPresupuestoTotal(tarea);
-    }
-
-    public void actualizarPresupuestoTotal(Tarea tarea) {
         presupuestoTotal += tarea.getCosto();
     }
 

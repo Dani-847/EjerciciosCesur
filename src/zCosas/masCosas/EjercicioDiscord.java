@@ -1,4 +1,4 @@
-package zCaja;
+package zCosas.masCosas;
 
 import java.util.Scanner;
 

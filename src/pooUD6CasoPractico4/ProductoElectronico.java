@@ -19,9 +19,9 @@ public class ProductoElectronico extends Producto{
     }
 
     public void mostrarDetalles(){
-        System.out.println("Nombre: " + nombre);
+        System.out.println("Nombre: " + getNombre());
         System.out.println("Precio actual: " + obtenerPrecioActual());
-        System.out.println("Historial: " + Arrays.toString(preciosHistoricos));
+        System.out.println("Historial: " + Arrays.toString(super.obtenerPreciosHistoricos()));
     }
 
     @Override

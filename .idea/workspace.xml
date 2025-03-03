@@ -4,7 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD6CP4" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD6CP4">
+      <change afterPath="$PROJECT_DIR$/src/pooUD7CasoPractico1/DivisionPorCero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD7CasoPractico1/ExcepcionDeDivisionPorCero.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pooUD7CasoPractico1/Test.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pooUD6CasoPractico4/ProductoElectronico.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooUD6CasoPractico4/ProductoElectronico.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +71,7 @@
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico10\solucionesProfesor" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CuentaBancariaTest">
+  <component name="RunManager">
     <configuration name="CuentaBancariaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pooUD3CasoPractico2.CuentaBancariaTest" />
       <module name="EjerciciosJavaCesur" />
@@ -101,8 +107,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="Application.CuentaBancariaTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.Prueba" />
       </list>
     </recent_temporary>
@@ -184,14 +190,8 @@
       <workItem from="1737017478726" duration="2307000" />
       <workItem from="1737024891875" duration="35000" />
       <workItem from="1737026534395" duration="16000" />
-    </task>
-    <task id="LOCAL-00088" summary="POO 4.0">
-      <option name="closed" value="true" />
-      <created>1730807983941</created>
-      <option name="number" value="00088" />
-      <option name="presentableId" value="LOCAL-00088" />
-      <option name="project" value="LOCAL" />
-      <updated>1730807983941</updated>
+      <workItem from="1737029433867" duration="20000" />
+      <workItem from="1740992837755" duration="1820000" />
     </task>
     <task id="LOCAL-00089" summary="POO 5.0">
       <option name="closed" value="true" />
@@ -577,7 +577,15 @@
       <option name="project" value="LOCAL" />
       <updated>1737026544247</updated>
     </task>
-    <option name="localTasksCounter" value="137" />
+    <task id="LOCAL-00137" summary="POO UD6CP4">
+      <option name="closed" value="true" />
+      <created>1737029447642</created>
+      <option name="number" value="00137" />
+      <option name="presentableId" value="LOCAL-00137" />
+      <option name="project" value="LOCAL" />
+      <updated>1737029447642</updated>
+    </task>
+    <option name="localTasksCounter" value="138" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

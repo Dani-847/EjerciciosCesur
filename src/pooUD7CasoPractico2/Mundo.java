@@ -7,11 +7,11 @@ public class Mundo {
 
     public Mundo() {
         nombre = "";
-        diametro = 0;
+        diametro = 0.0;
         habitable = false;
     }
 
-    public Mundo(String nombre, float diametro, boolean habitable) {
+    public Mundo(String nombre, double diametro, boolean habitable) {
         this.nombre = nombre;
         this.diametro = diametro;
         this.habitable = habitable;

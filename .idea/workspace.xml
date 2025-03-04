@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD7CP2">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD7CP2" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -60,11 +58,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\pooUD7CasoPractico2" />
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\pooUD6CasoPractico1" />
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\pooUD5CasoPractico5" />
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\pooUD4CasoPractico7" />
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico11\solucionesProfesor" />
-      <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico10\solucionesProfesor" />
     </key>
   </component>
   <component name="RunManager">
@@ -188,15 +186,7 @@
       <workItem from="1737026534395" duration="16000" />
       <workItem from="1737029433867" duration="20000" />
       <workItem from="1740992837755" duration="3887000" />
-      <workItem from="1741088685180" duration="845000" />
-    </task>
-    <task id="LOCAL-00091" summary="POO UD4CP1">
-      <option name="closed" value="true" />
-      <created>1731413911000</created>
-      <option name="number" value="00091" />
-      <option name="presentableId" value="LOCAL-00091" />
-      <option name="project" value="LOCAL" />
-      <updated>1731413911000</updated>
+      <workItem from="1741088685180" duration="1123000" />
     </task>
     <task id="LOCAL-00092" summary="POO UD4CP1">
       <option name="closed" value="true" />
@@ -582,7 +572,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741001721830</updated>
     </task>
-    <option name="localTasksCounter" value="140" />
+    <task id="LOCAL-00140" summary="POO UD7CP2">
+      <option name="closed" value="true" />
+      <created>1741090981546</created>
+      <option name="number" value="00140" />
+      <option name="presentableId" value="LOCAL-00140" />
+      <option name="project" value="LOCAL" />
+      <updated>1741090981547</updated>
+    </task>
+    <option name="localTasksCounter" value="141" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

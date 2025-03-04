@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD7CP1">
-      <change afterPath="$PROJECT_DIR$/src/pooUD7CasoPractico2/Sistema.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD7CasoPractico2/ValorNegativoException.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD7CP2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pooUD7CasoPractico2/Mundo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooUD7CasoPractico2/Mundo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -190,15 +187,8 @@
       <workItem from="1737024891875" duration="35000" />
       <workItem from="1737026534395" duration="16000" />
       <workItem from="1737029433867" duration="20000" />
-      <workItem from="1740992837755" duration="3454000" />
-    </task>
-    <task id="LOCAL-00090" summary="POO UD4CP1">
-      <option name="closed" value="true" />
-      <created>1731413456853</created>
-      <option name="number" value="00090" />
-      <option name="presentableId" value="LOCAL-00090" />
-      <option name="project" value="LOCAL" />
-      <updated>1731413456853</updated>
+      <workItem from="1740992837755" duration="3887000" />
+      <workItem from="1741088685180" duration="845000" />
     </task>
     <task id="LOCAL-00091" summary="POO UD4CP1">
       <option name="closed" value="true" />
@@ -584,7 +574,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740999719459</updated>
     </task>
-    <option name="localTasksCounter" value="139" />
+    <task id="LOCAL-00139" summary="POO UD7CP2">
+      <option name="closed" value="true" />
+      <created>1741001721830</created>
+      <option name="number" value="00139" />
+      <option name="presentableId" value="LOCAL-00139" />
+      <option name="project" value="LOCAL" />
+      <updated>1741001721830</updated>
+    </task>
+    <option name="localTasksCounter" value="140" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -603,7 +601,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="11.4" />
     <MESSAGE value="11.5" />
     <MESSAGE value="11.9 Soluciones profesor cP11" />
     <MESSAGE value="POO 2.0" />
@@ -628,7 +625,8 @@
     <MESSAGE value="POO UD6CP4 3" />
     <MESSAGE value="POO UD6CP4" />
     <MESSAGE value="POO UD7CP1" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO UD7CP1" />
+    <MESSAGE value="POO UD7CP2" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO UD7CP2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

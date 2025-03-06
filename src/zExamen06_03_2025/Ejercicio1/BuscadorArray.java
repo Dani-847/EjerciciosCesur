@@ -16,7 +16,6 @@ public class BuscadorArray {
                 j++;
             }
         }
-        System.out.println("Array generado: "+ java.util.Arrays.toString(array));
         return array;
     }
 

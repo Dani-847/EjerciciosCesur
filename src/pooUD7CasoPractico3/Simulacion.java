@@ -4,47 +4,31 @@ import java.util.Random;
 
 public class Simulacion {
     public static void main(String[] args) {
-        int iteracionesTotales = 100;
-        int[] numeros = new int[iteracionesTotales];
+        Random rand = new Random();
+        double temperatura;
+        int frio=0;
+        int calor=0;
 
-        int vecesCalor = 0;
-        int vecesFrio = 0;
-
-        Random random = new Random();
-
-        int i = 0;
-        while (i < iteracionesTotales && vecesCalor < 15 && vecesFrio < 5) {
+        while (frio<5 && calor<15) {
             try {
-                Thread.sleep((int)(Math.random() * 2000));
-                System.out.println("--------------------");
-                numeros[i] = random.nextInt(90);
-                System.out.println("Temperatura actual: " + numeros[i]);
-                if (numeros[i] > 50)
-                    throw new DemasiadoCalor(numeros[i]);
-                if (numeros[i] < 20)
-                    throw new DemasiadoFrio(numeros[i]);
-            } catch (DemasiadoCalor e) {
+                temperatura = rand.nextDouble(91);
+                System.out.println("Temperatura: " + temperatura);
+                Thread.sleep((int)(Math.random()*2000));
+                if (temperatura > 50)
+                    throw new DemasiadoCalor("Demasiado calor: " + temperatura);
+                if (temperatura < 20)
+                    throw new DemasiadoFrio("Demasiado frio: " + temperatura);
+            }catch (DemasiadoFrio e){
                 System.out.println(e.getMessage());
-                vecesCalor++;
-                System.out.println("Veces de calor: " + vecesCalor);
-            } catch (DemasiadoFrio e) {
-                System.out.println(e.getMessage());
-                vecesFrio++;
-                System.out.println("Veces de frío: " + vecesFrio);
+                frio++;
+            }catch (DemasiadoCalor c){
+                System.out.println(c.getMessage());
+                calor++;
             } catch (InterruptedException e) {
-                System.out.println("Error en la pausa del hilo.");
-                Thread.currentThread().interrupt();
-            } finally {
-                i++;
-            }
-
-            if (vecesCalor >= 15) {
-                System.out.println("Se ha superado el límite de calor.");
-            }
-
-            if (vecesFrio >= 5) {
-                System.out.println("Se ha superado el límite de frío.");
+                throw new RuntimeException(e);
             }
         }
+        System.out.println("Calor: " + calor);
+        System.out.println("Frio: " + frio);
     }
 }

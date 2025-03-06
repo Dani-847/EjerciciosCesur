@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD7CP2">
-      <change afterPath="$PROJECT_DIR$/src/pooUD7CasoPractico3/DemasiadoCalor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD7CasoPractico3/DemasiadoFrio.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pooUD7CasoPractico3/Simulacion.java" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="POO UD7CP3">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pooUD7CasoPractico3/Simulacion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pooUD7CasoPractico3/Simulacion.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,7 +68,7 @@
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\casoPractico11\solucionesProfesor" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CuentaBancariaTest">
     <configuration name="CuentaBancariaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pooUD3CasoPractico2.CuentaBancariaTest" />
       <module name="EjerciciosJavaCesur" />
@@ -191,15 +189,7 @@
       <workItem from="1737026534395" duration="16000" />
       <workItem from="1737029433867" duration="20000" />
       <workItem from="1740992837755" duration="3887000" />
-      <workItem from="1741088685180" duration="2751000" />
-    </task>
-    <task id="LOCAL-00093" summary="POO UD4CP1">
-      <option name="closed" value="true" />
-      <created>1731416165800</created>
-      <option name="number" value="00093" />
-      <option name="presentableId" value="LOCAL-00093" />
-      <option name="project" value="LOCAL" />
-      <updated>1731416165800</updated>
+      <workItem from="1741088685180" duration="4151000" />
     </task>
     <task id="LOCAL-00094" summary="POO UD4CP2">
       <option name="closed" value="true" />
@@ -585,7 +575,15 @@
       <option name="project" value="LOCAL" />
       <updated>1741091191916</updated>
     </task>
-    <option name="localTasksCounter" value="142" />
+    <task id="LOCAL-00142" summary="POO UD7CP3">
+      <option name="closed" value="true" />
+      <created>1741092986162</created>
+      <option name="number" value="00142" />
+      <option name="presentableId" value="LOCAL-00142" />
+      <option name="project" value="LOCAL" />
+      <updated>1741092986162</updated>
+    </task>
+    <option name="localTasksCounter" value="143" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -604,7 +602,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="11.5" />
     <MESSAGE value="11.9 Soluciones profesor cP11" />
     <MESSAGE value="POO 2.0" />
     <MESSAGE value="POO 3.0" />
@@ -629,7 +626,8 @@
     <MESSAGE value="POO UD6CP4" />
     <MESSAGE value="POO UD7CP1" />
     <MESSAGE value="POO UD7CP2" />
-    <option name="LAST_COMMIT_MESSAGE" value="POO UD7CP2" />
+    <MESSAGE value="POO UD7CP3" />
+    <option name="LAST_COMMIT_MESSAGE" value="POO UD7CP3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

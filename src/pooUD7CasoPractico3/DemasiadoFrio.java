@@ -1,7 +1,7 @@
 package pooUD7CasoPractico3;
 
-public class DemasiadoFrio extends Exception {
-    public DemasiadoFrio(double temperatura) {
-        super("Demasiado frio: " + temperatura);
+public class DemasiadoFrio  extends Limites{
+    public DemasiadoFrio(String message) {
+        super(message);
     }
 }

@@ -1,4 +1,4 @@
-package Ejercicio1;
+package zExamen06_03_2025.Ejercicio1;
 
 import java.util.Arrays;
 import java.util.Random;

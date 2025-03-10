@@ -1,4 +1,4 @@
-package Ejercicio2;
+package zExamen06_03_2025.Ejercicio2;
 
 public class Test {
     public static void main(String[] args) {

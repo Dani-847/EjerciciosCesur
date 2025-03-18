@@ -1,4 +1,4 @@
-package pooUD7CasoPractico6;
+package Programacion.pooUD7CasoPractico6;
 
 public class CuentaBancaria {
     private String titular;

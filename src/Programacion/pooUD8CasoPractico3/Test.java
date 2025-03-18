@@ -5,67 +5,90 @@ import java.util.Scanner;
 
 public class Test {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Nombre del primer archivo: ");
+        String nombre1 = sc.nextLine();
+        System.out.print("Nombre del segundo archivo: ");
+        String nombre2 = sc.nextLine();
+        System.out.print("Nombre del directorio destino: ");
+        String directorio = sc.nextLine();
 
-        // Solicitar rutas de los archivos de entrada
-        System.out.print("Ingrese la ruta del primer archivo de texto: ");
-        String firstFilePath = scanner.nextLine();
-        System.out.print("Ingrese la ruta del segundo archivo de texto: ");
-        String secondFilePath = scanner.nextLine();
-
-        // Verificar que los archivos tengan extensión .txt
-        if (!firstFilePath.endsWith(".txt") || !secondFilePath.endsWith(".txt")) {
-            System.out.println("Error: Ambos archivos deben tener la extensión .txt");
-            return;
-        }
-
-        // Verificar que los archivos existan
-        File firstFile = new File(firstFilePath);
-        File secondFile = new File(secondFilePath);
-        if (!firstFile.exists() || !secondFile.exists()) {
-            System.out.println("Error: Uno o ambos archivos no existen.");
-            return;
-        }
-
-        // Solicitar ruta de destino
-        System.out.print("Ingrese la ruta donde se guardará el archivo fusionado: ");
-        String outputDirectory = scanner.nextLine();
-
-        // Crear el nombre del archivo de salida
-        String firstFileName = firstFile.getName().replace(".txt", "");
-        String secondFileName = secondFile.getName().replace(".txt", "");
-        String outputFileName = firstFileName + "_" + secondFileName + ".txt";
-        String outputFilePath = outputDirectory + File.separator + outputFileName;
-
-        File outputFile = new File(outputFilePath);
-
-        // Verificar si el archivo de salida ya existe
-        if (outputFile.exists()) {
-            System.out.print("El archivo de salida ya existe. ¿Desea sobrescribirlo? (S/N): ");
-            String overwrite = scanner.nextLine();
-            if (!overwrite.equalsIgnoreCase("S")) {
-                System.out.println("Operación cancelada.");
-                return;
+        //Comprobamos la existencia de los archivos y el directorio
+        File f1 = new File(nombre1);
+        File f2 = new File(nombre2);
+        File dir = new File(directorio);
+        try {
+            if (!f1.exists()) {
+                throw new FileNotFoundException("El archivo 1 no existe");
             }
-        }
-
-        // Fusionar el contenido de los archivos
-        try (BufferedReader reader1 = new BufferedReader(new FileReader(firstFile));
-             BufferedReader reader2 = new BufferedReader(new FileReader(secondFile));
-             BufferedWriter writer = new BufferedWriter(new FileWriter(outputFile))) {
-
-            String line;
-            while ((line = reader1.readLine()) != null) {
-                writer.write(line);
-                writer.newLine();
+            if (!f2.exists()) {
+                throw new FileNotFoundException("El archivo 2 no existe");
             }
-            while ((line = reader2.readLine()) != null) {
-                writer.write(line);
-                writer.newLine();
+            if (!dir.exists()) {
+                throw new FileNotFoundException("El directorio destino no existe");
             }
-
+            if (!f1.getName().toLowerCase().endsWith(".txt") ||
+                    !f2.getName().toLowerCase().endsWith(".txt")) {
+                throw new ArchivoNoValidoException("El archivo no es válido");
+            }
+            //Generamos el nombre del archivo de destino
+            String[] nombreArchivo1 = f1.getName().split("\\.");
+            String nombreDestino = directorio + "/" + nombreArchivo1[0] + "_" + f2.getName();
+            File destino = new File(nombreDestino);
+            String sobreescribir="S";
+            if (destino.exists()) {
+                System.out.println("El archivo destino ya existe. ¿Sobreescribir el archivo? (S/N) ");
+                sobreescribir = sc.nextLine();
+            }
+            if (sobreescribir.equalsIgnoreCase("S")) {
+                //Abrimos los flujos de entrada y el flujo de salida y copiamos
+                BufferedReader br1 = null;
+                BufferedReader br2 = null;
+                PrintWriter pw1 = null;
+                try {
+                    br1 = new BufferedReader(new FileReader(f1));
+                    br2 = new BufferedReader(new FileReader(f2));
+                    pw1 = new PrintWriter(nombreDestino);
+                    //Vamos leyendo el archivo 1 y escribiendo en el destino
+                    String linea = br1.readLine();
+                    while (linea != null) {
+                        pw1.println(linea);
+                        linea = br1.readLine();
+                    }
+                    linea = br2.readLine();
+                    while (linea != null) {
+                        pw1.println(linea);
+                        linea = br2.readLine();
+                    }
+                } catch (IOException e) {
+                    System.out.println("No se pudo abrir el archivo");
+                } finally {
+                    try {
+                        if (br1 != null) {
+                            br1.close();
+                        }
+                        if (br2 != null) {
+                            br2.close();
+                        }
+                        if (pw1 != null) {
+                            pw1.close();
+                        }
+                    } catch (IOException e) {
+                        System.out.println("No se pudo cerrar el archivo");
+                    }
+                }
+                System.out.println("El archivo destino se ha generado correctamente");
+                System.out.println("Archivo generado: " + destino.getCanonicalPath());
+            }
+        } catch (FileNotFoundException e) {
+            System.out.println(e.getMessage());
+        } catch (ArchivoNoValidoException e) {
+            System.out.println("El archivo no tiene la extensión .txt");
         } catch (IOException e) {
-            System.out.println("Error al leer o escribir los archivos: " + e.getMessage());
+            System.out.println(e.getMessage());
         }
+        sc.close();
     }
+
 }
+

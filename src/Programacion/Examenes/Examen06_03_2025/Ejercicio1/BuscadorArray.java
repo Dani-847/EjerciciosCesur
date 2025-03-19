@@ -1,4 +1,4 @@
-package Programacion.Examen06_03_2025.Ejercicio1;
+package Programacion.Examenes.Examen06_03_2025.Ejercicio1;
 
 public class BuscadorArray {
     public static int[] generarArrayAleatorio() {

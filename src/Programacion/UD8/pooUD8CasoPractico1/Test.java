@@ -1,4 +1,4 @@
-package Programacion.pooUD8CasoPractico1;
+package Programacion.UD8.pooUD8CasoPractico1;
 
 import java.io.*;
 import java.util.Scanner;

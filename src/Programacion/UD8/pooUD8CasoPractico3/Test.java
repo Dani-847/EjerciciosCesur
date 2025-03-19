@@ -1,4 +1,4 @@
-package Programacion.pooUD8CasoPractico3;
+package Programacion.UD8.pooUD8CasoPractico3;
 
 import java.io.*;
 import java.util.Scanner;
@@ -14,8 +14,8 @@ public class Test {
         String directorio = sc.nextLine();
 
         //Comprobamos la existencia de los archivos y el directorio
-        File f1 = new File(nombre1);
-        File f2 = new File(nombre2);
+        File f1 = new File(("src/Programacion/UD8/pooUD8CasoPractico3/files/"+nombre1));
+        File f2 = new File(("src/Programacion/UD8/pooUD8CasoPractico3/files/"+nombre2));
         File dir = new File(directorio);
         try {
             if (!f1.exists()) {
@@ -89,6 +89,5 @@ public class Test {
         }
         sc.close();
     }
-
 }
 

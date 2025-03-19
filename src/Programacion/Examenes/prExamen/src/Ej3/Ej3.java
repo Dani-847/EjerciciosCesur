@@ -1,4 +1,4 @@
-package Ej3;
+package Programacion.Examenes.prExamen.src.Ej3;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package ejercicio2;
+package Programacion.Examenes.Examen16_01_2025.src.ejercicio2;
 
 public class Proyecto {
     private String nombre;

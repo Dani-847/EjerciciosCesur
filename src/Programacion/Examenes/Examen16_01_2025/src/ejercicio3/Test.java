@@ -1,4 +1,4 @@
-package ejercicio3;
+package Programacion.Examenes.Examen16_01_2025.src.ejercicio3;
 
 public class Test {
     public static void main(String[] args) {

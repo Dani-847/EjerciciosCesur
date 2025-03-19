@@ -1,4 +1,4 @@
-package ejercicio3;
+package Programacion.Examenes.prExamen28_11_2024.src.ejercicio3;
 
 public class Revista extends MaterialBibliografico{
     private int numeroEdicion;

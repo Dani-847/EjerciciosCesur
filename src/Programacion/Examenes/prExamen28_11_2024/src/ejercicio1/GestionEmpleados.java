@@ -1,4 +1,4 @@
-package ejercicio1;
+package Programacion.Examenes.prExamen28_11_2024.src.ejercicio1;
 
 public class GestionEmpleados {
     public static void main(String[] args) {

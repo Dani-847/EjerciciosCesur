@@ -1,4 +1,4 @@
-package Ej4;
+package Programacion.Examenes.prExamen.src.Ej4;
 
 public class Ej4 {
     public static void main(String[] args) {

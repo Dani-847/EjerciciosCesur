@@ -1,4 +1,4 @@
-package ejercicio2;
+package Programacion.Examenes.prExamen28_11_2024.src.ejercicio2;
 
 public class Producto {
     private String nombre;

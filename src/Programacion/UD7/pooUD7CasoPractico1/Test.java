@@ -1,4 +1,4 @@
-package pooUD7CasoPractico1;
+package Programacion.UD7.pooUD7CasoPractico1;
 
 import java.sql.SQLOutput;
 

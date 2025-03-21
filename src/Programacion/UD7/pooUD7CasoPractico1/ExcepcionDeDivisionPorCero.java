@@ -1,4 +1,4 @@
-package pooUD7CasoPractico1;
+package Programacion.UD7.pooUD7CasoPractico1;
 
 public class ExcepcionDeDivisionPorCero extends Exception {
     public ExcepcionDeDivisionPorCero(double message) {

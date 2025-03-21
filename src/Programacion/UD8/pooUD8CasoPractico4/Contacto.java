@@ -1,3 +1,5 @@
+package Programacion.UD8.pooUD8CasoPractico4;
+
 public class Contacto {
     private String nombre;
     private String telefono;

@@ -4,15 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="Refactor">
-      <change afterPath="$PROJECT_DIR$/src/Programacion/UD8/pooUD8CasoPractico4/Contacto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programacion/UD8/pooUD8CasoPractico4/GestionContactos.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programacion/UD8/pooUD8CasoPractico4/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Programacion/UD8/pooUD8CasoPractico4/files/contactos.txt" afterDir="false" />
+    <list default="true" id="30615857-2c3e-4c4b-9bca-3da0825d698c" name="Changes" comment="UD8CP4">
+      <change afterPath="$PROJECT_DIR$/src/Entornos/Calculadora/Calculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entornos/Calculadora/OperacionesCalculadora.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Entornos/Calculadora/Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programacion/UD7/pooUD7CasoPractico1/DivisionPorCero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programacion/UD7/pooUD7CasoPractico1/DivisionPorCero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programacion/UD7/pooUD7CasoPractico1/ExcepcionDeDivisionPorCero.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programacion/UD7/pooUD7CasoPractico1/ExcepcionDeDivisionPorCero.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Programacion/UD7/pooUD7CasoPractico1/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Programacion/UD7/pooUD7CasoPractico1/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,24 +43,24 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/DanielRodriguezKarcz/IdeaProjects/EjerciciosCesur&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/DanielRodriguezKarcz/IdeaProjects/EjerciciosCesur",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\Programacion\pooUD8CasoPractico3\files" />
@@ -74,7 +70,7 @@
       <recent name="C:\Users\DanielRodriguezKarcz\IdeaProjects\EjerciciosJavaCesur\src\pooUD5CasoPractico5" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CuentaBancariaTest">
+  <component name="RunManager">
     <configuration name="CuentaBancariaTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="pooUD3CasoPractico2.CuentaBancariaTest" />
       <module name="EjerciciosJavaCesur" />
@@ -205,22 +201,12 @@
       <workItem from="1742374822972" duration="421000" />
       <workItem from="1742461872031" duration="2618000" />
       <workItem from="1742467518732" duration="1737000" />
-    </task>
-    <task id="LOCAL-00104" summary="POO UD4CP5">
-      <option name="closed" value="true" />
-      <created>1732189005782</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1732189005782</updated>
-    </task>
-    <task id="LOCAL-00105" summary="POO UD4CP6">
-      <option name="closed" value="true" />
-      <created>1732192450767</created>
-      <option name="number" value="00105" />
-      <option name="presentableId" value="LOCAL-00105" />
-      <option name="project" value="LOCAL" />
-      <updated>1732192450767</updated>
+      <workItem from="1742541836776" duration="63000" />
+      <workItem from="1742548210943" duration="273000" />
+      <workItem from="1742548504844" duration="383000" />
+      <workItem from="1742549055601" duration="3000" />
+      <workItem from="1742549582499" duration="3000" />
+      <workItem from="1742549666955" duration="3033000" />
     </task>
     <task id="LOCAL-00106" summary="POO UD4CP6">
       <option name="closed" value="true" />
@@ -598,7 +584,23 @@
       <option name="project" value="LOCAL" />
       <updated>1742375122932</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="UD8CP4">
+      <option name="closed" value="true" />
+      <created>1742541874404</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1742541874404</updated>
+    </task>
+    <task id="LOCAL-00154" summary="UD8CP4">
+      <option name="closed" value="true" />
+      <created>1742541895056</created>
+      <option name="number" value="00154" />
+      <option name="presentableId" value="LOCAL-00154" />
+      <option name="project" value="LOCAL" />
+      <updated>1742541895056</updated>
+    </task>
+    <option name="localTasksCounter" value="155" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -617,7 +619,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="POO UD4CP4" />
     <MESSAGE value="POO UD4CP5" />
     <MESSAGE value="POO UD4CP6" />
     <MESSAGE value="POO UD4CP7 y 8" />
@@ -642,7 +643,8 @@
     <MESSAGE value="Refactor directorios de carpetas" />
     <MESSAGE value="Nuevo nombre" />
     <MESSAGE value="Refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="Refactor" />
+    <MESSAGE value="UD8CP4" />
+    <option name="LAST_COMMIT_MESSAGE" value="UD8CP4" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -659,5 +661,9 @@
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

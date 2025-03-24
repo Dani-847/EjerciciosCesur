@@ -1,0 +1,11 @@
+Este
+es el
+archivo
+que vamos
+a intentar
+comprar
+para defectar
+algún fallo
+que debe
+detectar el
+programas

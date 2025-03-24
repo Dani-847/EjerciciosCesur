@@ -1,6 +1,6 @@
-package practica02ud06.garaje;
+package Programacion.UD6.pooUD6CasoPractico2.garaje;
 
-import practica02ud06.vehiculos.Vehiculo;
+import Programacion.UD6.pooUD6CasoPractico2.vehiculos.Vehiculo;
 
 import java.util.Arrays;
 

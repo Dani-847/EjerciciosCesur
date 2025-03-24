@@ -1,4 +1,4 @@
-package pooUD4CasoPractico2;
+package Programacion.UD4.pooUD4CasoPractico2;
 
 public class Cuenta {
     private String numeroCuenta;

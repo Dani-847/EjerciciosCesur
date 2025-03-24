@@ -1,4 +1,4 @@
-package pooUD4CasoPractico4;
+package Programacion.UD4.pooUD4CasoPractico4;
 
 public class MyOwnAutoShop {
     public static void main(String[] args) {

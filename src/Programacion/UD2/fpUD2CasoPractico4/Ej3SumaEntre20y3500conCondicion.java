@@ -1,4 +1,4 @@
-package fpUD2CasoPractico4;
+package Programacion.UD2.fpUD2CasoPractico4;
 
 public class Ej3SumaEntre20y3500conCondicion {
     public static void main(String[] args) {

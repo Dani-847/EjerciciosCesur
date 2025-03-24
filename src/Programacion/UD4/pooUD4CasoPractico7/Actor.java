@@ -1,4 +1,4 @@
-package pooUD4CasoPractico7;
+package Programacion.UD4.pooUD4CasoPractico7;
 
 public class Actor {
     private String nombre;

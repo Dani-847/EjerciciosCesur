@@ -1,4 +1,4 @@
-package pooUD3CasoPractico5;
+package Programacion.UD3.pooUD3CasoPractico5;
 
 public class Producto {
     private String nombre;

@@ -1,4 +1,4 @@
-package pooUD3CasoPractico2;
+package Programacion.UD3.pooUD3CasoPractico2;
 
 public class CuentaBancariaTest {
     public static void main(String[] args) {

@@ -1,8 +1,8 @@
-package practica02ud06.main;
+package Programacion.UD6.pooUD6CasoPractico2.main;
 
-import practica02ud06.garaje.Garaje;
-import practica02ud06.vehiculos.Coche;
-import practica02ud06.vehiculos.Moto;
+import Programacion.UD6.pooUD6CasoPractico2.garaje.Garaje;
+import Programacion.UD6.pooUD6CasoPractico2.vehiculos.Coche;
+import Programacion.UD6.pooUD6CasoPractico2.vehiculos.Moto;
 
 public class Practica02UD06 {
     public static void main(String[] args) {

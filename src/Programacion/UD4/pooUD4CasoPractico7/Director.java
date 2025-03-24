@@ -1,4 +1,4 @@
-package pooUD4CasoPractico7;
+package Programacion.UD4.pooUD4CasoPractico7;
 
 public class Director {
     private String nombre;

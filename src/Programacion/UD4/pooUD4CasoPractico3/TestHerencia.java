@@ -1,4 +1,4 @@
-package pooUD4CasoPractico3;
+package Programacion.UD4.pooUD4CasoPractico3;
 
 public class TestHerencia {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package practica02ud06.vehiculos;
+package Programacion.UD6.pooUD6CasoPractico2.vehiculos;
 
 public class Moto extends Vehiculo {
     private double cilindrada;

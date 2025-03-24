@@ -1,4 +1,4 @@
-package fpUD2CasoPractico1;
+package Programacion.UD2.fpUD2CasoPractico1;
 
 public class Ej2Num10al1 {
     public static void main(String[] args) {

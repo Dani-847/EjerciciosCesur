@@ -1,4 +1,4 @@
-package pooUD4CasoPractico5;
+package Programacion.UD4.pooUD4CasoPractico5;
 
 public class Empleado {
     private String dni;

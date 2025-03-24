@@ -1,4 +1,4 @@
-package pooUD5CasoPractico2;
+package Programacion.UD5.pooUD5CasoPractico2;
 
 public class EjUrna {
     public static void main(String[] args) {

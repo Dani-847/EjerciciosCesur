@@ -1,4 +1,4 @@
-package Programacion.fpUD2CasoPracticoB;
+package Programacion.UD2.fpUD2CasoPracticoB;
 
 public class Ej1Fahrenheit {
     public static void main(String[] args) {

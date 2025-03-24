@@ -1,4 +1,4 @@
-package pooUD6CasoPractico3;
+package Programacion.UD6.pooUD6CasoPractico3;
 
 public class Main {
     public static void main(String[] args) {

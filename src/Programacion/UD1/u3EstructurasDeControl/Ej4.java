@@ -1,4 +1,4 @@
-package u3EstructurasDeControl;
+package Programacion.UD1.u3EstructurasDeControl;
 
 public class Ej4 {
     public static void main(String[] args) {

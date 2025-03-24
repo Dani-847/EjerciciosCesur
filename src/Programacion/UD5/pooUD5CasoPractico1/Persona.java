@@ -1,4 +1,4 @@
-package pooUD5CasoPractico1;
+package Programacion.UD5.pooUD5CasoPractico1;
 
 public class Persona {
     private String nombre;

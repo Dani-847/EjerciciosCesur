@@ -1,4 +1,4 @@
-package pooUD3CasoPractico1;
+package Programacion.UD3.pooUD3CasoPractico1;
 
 public class Coche {
     private String modelo;

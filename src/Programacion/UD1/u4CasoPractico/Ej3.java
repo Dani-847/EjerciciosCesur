@@ -1,4 +1,4 @@
-package u4CasoPractico;
+package Programacion.UD1.u4CasoPractico;
 
 public class Ej3 {
     public static void main(String[] args) {

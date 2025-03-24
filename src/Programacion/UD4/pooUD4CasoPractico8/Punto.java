@@ -1,4 +1,4 @@
-package pooUD4CasoPractico8;
+package Programacion.UD4.pooUD4CasoPractico8;
 
 public class Punto {
     private double x;

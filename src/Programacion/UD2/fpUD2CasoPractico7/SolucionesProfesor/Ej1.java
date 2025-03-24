@@ -1,3 +1,5 @@
+package Programacion.UD2.fpUD2CasoPractico7.SolucionesProfesor;
+
 import java.util.Scanner;
 
 public class Ej1 {

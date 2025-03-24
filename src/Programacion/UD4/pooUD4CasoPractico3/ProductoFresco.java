@@ -1,4 +1,4 @@
-package pooUD4CasoPractico3;
+package Programacion.UD4.pooUD4CasoPractico3;
 
 public class ProductoFresco extends Producto{
     private String fechaEnvasado;

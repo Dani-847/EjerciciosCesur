@@ -1,4 +1,4 @@
-package fpUD2CasoPracticoA.solucionesProfesor;
+package Programacion.UD2.fpUD2CasoPracticoA.solucionesProfesor;
 
 import java.util.Random;
 import java.util.Scanner;

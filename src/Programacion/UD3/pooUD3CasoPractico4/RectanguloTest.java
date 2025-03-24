@@ -1,4 +1,4 @@
-package pooUD3CasoPractico4;
+package Programacion.UD3.pooUD3CasoPractico4;
 
 public class RectanguloTest {
     public static void main(String[] args) {

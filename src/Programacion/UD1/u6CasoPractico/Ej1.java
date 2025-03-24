@@ -1,4 +1,4 @@
-package u6CasoPractico;
+package Programacion.UD1.u6CasoPractico;
 
 import java.util.Scanner;
 

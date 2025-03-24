@@ -1,4 +1,4 @@
-package u2;
+package Programacion.UD1.u2;
 
 import java.util.Scanner;
 

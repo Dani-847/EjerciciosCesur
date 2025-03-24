@@ -1,4 +1,4 @@
-package u0Intro;
+package Programacion.UD1.u0Intro;
 
 public class Ej1 {
     public static void main(String[] args) {

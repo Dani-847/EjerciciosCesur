@@ -1,4 +1,4 @@
-package pooUD5CasoPractico6;
+package Programacion.UD5.pooUD5CasoPractico6;
 
 import java.util.Scanner;
 

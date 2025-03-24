@@ -1,4 +1,4 @@
-package fpUD2CasoPractico8;
+package Programacion.UD2.fpUD2CasoPractico8;
 
 import java.util.Scanner;
 

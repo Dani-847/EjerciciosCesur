@@ -1,4 +1,4 @@
-package fpUD2CasoPractico2.SolucionesProfesor;
+package Programacion.UD2.fpUD2CasoPractico2.SolucionesProfesor;
 
 import java.util.Scanner;
 

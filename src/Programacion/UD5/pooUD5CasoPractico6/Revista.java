@@ -1,4 +1,4 @@
-package pooUD5CasoPractico6;
+package Programacion.UD5.pooUD5CasoPractico6;
 
 public class Revista extends Ejemplar{
     private int edicion;

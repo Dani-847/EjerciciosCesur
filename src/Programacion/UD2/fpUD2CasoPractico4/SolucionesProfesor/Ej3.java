@@ -1,4 +1,4 @@
-package fpUD2CasoPractico4.SolucionesProfesor;
+package Programacion.UD2.fpUD2CasoPractico4.SolucionesProfesor;
 
 public class Ej3 {
     public static void main(String[] args) {

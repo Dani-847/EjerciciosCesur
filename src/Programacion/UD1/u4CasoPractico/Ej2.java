@@ -1,4 +1,4 @@
-package u4CasoPractico;
+package Programacion.UD1.u4CasoPractico;
 
 import java.util.Scanner;
 

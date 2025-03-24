@@ -1,4 +1,4 @@
-package pooUD4CasoPractico1;
+package Programacion.UD4.pooUD4CasoPractico1;
 
 public class SerVivo {
     private byte edad;

@@ -1,4 +1,4 @@
-package pooUD3CasoPractico3;
+package Programacion.UD3.pooUD3CasoPractico3;
 
 public class Libro {
     private String titulo;

@@ -1,4 +1,4 @@
-package fpUD2CasoPractico3;
+package Programacion.UD2.fpUD2CasoPractico3;
 
 public class Ej4SumaDeAlgo {
     public static void main(String[] args) {

@@ -1,7 +1,0 @@
-Archivo
-Número
-Uno
-de prueba
-Este es
-el archivo
-numero 2

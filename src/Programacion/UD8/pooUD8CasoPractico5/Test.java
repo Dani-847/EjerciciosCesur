@@ -23,16 +23,8 @@ public class Test {
             int numeroLinea = 1;
 
             while (linea1 != null || linea2 != null) {
-                if (linea1 == null) {
-                    System.out.println("El archivo " + archivo2 + " tiene más líneas que el archivo " + archivo1);
-                    break;
-                } else if (linea2 == null) {
-                    System.out.println("El archivo " + archivo1 + " tiene más líneas que el archivo " + archivo2);
-                    break;
-                } else if (!linea1.equals(linea2)) {
-                    System.out.println("Diferencia en la línea " + numeroLinea + ":");
-                    System.out.println(archivo1 + ": " + linea1);
-                    System.out.println(archivo2 + ": " + linea2);
+                if (linea1 != linea2){
+                    throw new LineaException(String.valueOf(numeroLinea));
                 }
 
                 linea1 = br1.readLine();
@@ -44,6 +36,8 @@ public class Test {
             System.out.println("Uno de los archivos no existe: " + e.getMessage());
         } catch (IOException e) {
             System.out.println("Error al leer los archivos: " + e.getMessage());
+        } catch (LineaException e) {
+            System.out.println("Error en la línea " + e.getMessage());
         } finally {
             try {
                 if (br1 != null) br1.close();

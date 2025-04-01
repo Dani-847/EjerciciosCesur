@@ -14,8 +14,8 @@ public class Comparador {
         BufferedReader br1 = null;
         BufferedReader br2 = null;
         try{
-            br1 = new BufferedReader(new FileReader("src/Programacion/UD8/pooUD8CasoPractico3/files/"+archivo1));
-            br2 = new BufferedReader(new FileReader("src/Programacion/UD8/pooUD8CasoPractico3/files/"+archivo2));
+            br1 = new BufferedReader(new FileReader("src/Programacion/UD8/pooUD8CasoPractico5/files/"+archivo1));
+            br2 = new BufferedReader(new FileReader("src/Programacion/UD8/pooUD8CasoPractico5/files/"+archivo2));
             String linea1 = br1.readLine();
             String linea2 = br2.readLine();
             int contador = 1;

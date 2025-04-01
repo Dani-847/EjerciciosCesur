@@ -1,5 +1,11 @@
-paco - 9.75
-juan - 2.0
-jiaxin - 0.0
-ji - 10.0
-pacoporras - 100000
+Rodri - 8.5
+Maria - 7.2
+Lucia - 9.8
+Javier - 6.4
+Alejandro - 5.3
+Sofia - 10.0
+Carlos - 3.7
+Ana - 4.1
+Miguel - 9.0
+Andrea - 2.9
+Pablo - 7.8

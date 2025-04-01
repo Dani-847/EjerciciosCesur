@@ -9,6 +9,7 @@ import java.io.*;
 public class Calificaciones extends JFrame {
     private JPanel panel1;
     private JTextField tfCalificacion;
+    private JLabel lblTexto;
     private JTextField tfNombre;
     private JButton btnAgregar;
     private JButton btnGuardar;
@@ -21,12 +22,11 @@ public class Calificaciones extends JFrame {
 
     public Calificaciones() {
         setTitle("Gestión de Calificaciones");
-        setSize(400, 300);
+        setContentPane(panel1);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(400, 300);
         setLocationRelativeTo(null);
-        txtHCalificaciones.setEditable(false);
-
-        add(panel1);
+        setResizable(false);
 
         btnAgregar.addActionListener(e -> agregarNota());
 

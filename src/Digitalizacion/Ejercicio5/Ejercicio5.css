@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.contenedor {
+    width: 75%;
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background: white;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+    position: relative;
+}
+
+.logo {
+    width: 100px;
+    cursor: pointer;
+    transition: filter 0.3s;
+}
+
+.logo:hover {
+    filter: brightness(1.2);
+}
+
+.menu {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu ul li {
+    padding: 10px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    background: lightgray;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.menu ul li a:hover {
+    background: gray;
+    color: white;
+}
+
+.menu ul li a.active {
+    background: darkblue;
+    color: white;
+    font-weight: bold;
+}
+
+.desplegable {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+.contenido {
+    flex-grow: 1;
+    padding: 20px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.galeria {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+    padding: 10px;
+}
+
+.galeria img {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+.productos {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.producto {
+    text-align: center;
+}
+
+.producto img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.calendario {
+    width: 100%;
+    max-width: 600px;
+    margin: auto;
+    border-collapse: collapse;
+}
+
+.calendario th,
+.calendario td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.calendario th {
+    background: #eee;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 1000px) {
+    .contenedor {
+        width: 90%;
+    }
+    .desplegable {
+        display: block;
+    }
+    .menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: white;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+        padding: 10px 0;
+        z-index: 1000;
+    }
+    .menu.activo {
+        display: flex;
+    }
+    .menu ul {
+        flex-direction: column;
+        padding: 0;
+    }
+}

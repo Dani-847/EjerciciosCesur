@@ -1,173 +1,103 @@
 package Programacion.UD8.pooUD8CasoPractico9;
 
-import javax.script.ScriptEngineManager;
-import javax.script.ScriptException;
 import javax.swing.*;
-import java.awt.*;
 import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
 
-public class Calculadora extends JFrame {
-    private JTextField textField1;
-    private JButton button7;
-    private JButton button8;
-    private JButton button9;
-    private JButton buttonDiv;
-    private JButton buttonX;
-    private JButton buttonMinus;
-    private JButton buttonPlus;
-    private JButton button6;
-    private JButton button3;
-    private JButton buttonEqual;
-    private JButton button5;
-    private JButton button2;
-    private JButton button0;
-    private JButton button4;
-    private JButton button1;
-    private JButton buttonC;
+public class Calculadora extends JFrame{
     private JPanel panel1;
+    private JTextField tfResult;
+    private JButton btn7;
+    private JButton btn8;
+    private JButton btn9;
+    private JButton btnDividir;
+    private JButton btn4;
+    private JButton btn5;
+    private JButton btn6;
+    private JButton btnMultiplicar;
+    private JButton btn1;
+    private JButton btn2;
+    private JButton btn3;
+    private JButton btnRestar;
+    private JButton btnReset;
+    private JButton btn0;
+    private JButton btnIgual;
+    private JButton btnSumar;
+    private double num1;
+    private char operador;
 
-    private double num1 = 0;
-    private String operator = "";
-
-    public Calculadora() {
-        setTitle("Calculadora");
+    public Calculadora(){
+        setTitle("Calculadora simple");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(450, 550);
-        setLocationRelativeTo(null);
         setContentPane(panel1);
-        textField1.setEditable(true);
-
-        button0.setPreferredSize(new Dimension(100, 100));
-        button1.setPreferredSize(new Dimension(100, 100));
-        button2.setPreferredSize(new Dimension(100, 100));
-        button3.setPreferredSize(new Dimension(100, 100));
-        button4.setPreferredSize(new Dimension(100, 100));
-        button5.setPreferredSize(new Dimension(100, 100));
-        button6.setPreferredSize(new Dimension(100, 100));
-        button7.setPreferredSize(new Dimension(100, 100));
-        button8.setPreferredSize(new Dimension(100, 100));
-        button9.setPreferredSize(new Dimension(100, 100));
-        buttonEqual.setPreferredSize(new Dimension(100, 100));
-        buttonPlus.setPreferredSize(new Dimension(100, 100));
-        buttonMinus.setPreferredSize(new Dimension(100, 100));
-        buttonDiv.setPreferredSize(new Dimension(100, 100));
-        buttonX.setPreferredSize(new Dimension(100, 100));
-        buttonC.setPreferredSize(new Dimension(100, 100));
-
-
-
-
-        addNumberActionListeners();
-        addOperatorActionListeners();
-        addEqualActionListener();
-        addClearActionListener();
-        addTextFieldKeyListener();
+        setSize(350,420);
+        setResizable(false);
+        btn0.addActionListener(this::acciones);
+        btn1.addActionListener(this::acciones);
+        btn2.addActionListener(this::acciones);
+        btn3.addActionListener(this::acciones);
+        btn4.addActionListener(this::acciones);
+        btn5.addActionListener(this::acciones);
+        btn6.addActionListener(this::acciones);
+        btn7.addActionListener(this::acciones);
+        btn8.addActionListener(this::acciones);
+        btn9.addActionListener(this::acciones);
+        btnReset.addActionListener(this::acciones);
+        btnSumar.addActionListener(this::acciones);
+        btnRestar.addActionListener(this::acciones);
+        btnMultiplicar.addActionListener(this::acciones);
+        btnDividir.addActionListener(this::acciones);
+        btnIgual.addActionListener(this::acciones);
     }
 
-    private void addNumberActionListeners() {
-        ActionListener numberListener = new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JButton source = (JButton) e.getSource();
-                textField1.setText(textField1.getText() + source.getText());
+    private void acciones(ActionEvent e) {
+        double num2;
+        switch (e.getActionCommand()) {
+            case "0" -> tfResult.setText(tfResult.getText()+"0");
+            case "1" -> tfResult.setText(tfResult.getText()+"1");
+            case "2" -> tfResult.setText(tfResult.getText()+"2");
+            case "3" -> tfResult.setText(tfResult.getText()+"3");
+            case "4" -> tfResult.setText(tfResult.getText()+"4");
+            case "5" -> tfResult.setText(tfResult.getText()+"5");
+            case "6" -> tfResult.setText(tfResult.getText()+"6");
+            case "7" -> tfResult.setText(tfResult.getText()+"7");
+            case "8" -> tfResult.setText(tfResult.getText()+"8");
+            case "9" -> tfResult.setText(tfResult.getText()+"9");
+            case "+" -> {
+                    num1 = Double.parseDouble(tfResult.getText());
+                    operador = '+';
+                    tfResult.setText("");
             }
-        };
-
-        button0.addActionListener(numberListener);
-        button1.addActionListener(numberListener);
-        button2.addActionListener(numberListener);
-        button3.addActionListener(numberListener);
-        button4.addActionListener(numberListener);
-        button5.addActionListener(numberListener);
-        button6.addActionListener(numberListener);
-        button7.addActionListener(numberListener);
-        button8.addActionListener(numberListener);
-        button9.addActionListener(numberListener);
-    }
-
-    private void addOperatorActionListeners() {
-        ActionListener operatorListener = new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                JButton source = (JButton) e.getSource();
-                num1 = Double.parseDouble(textField1.getText());
-                operator = source.getText();
-                textField1.setText("");
+            case "-" -> {
+                num1 = Double.parseDouble(tfResult.getText());
+                operador = '-';
+                tfResult.setText("");
             }
-        };
-
-        buttonPlus.addActionListener(operatorListener);
-        buttonMinus.addActionListener(operatorListener);
-        buttonX.addActionListener(operatorListener);
-        buttonDiv.addActionListener(operatorListener);
-    }
-
-    private void addEqualActionListener() {
-        buttonEqual.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                double num2 = Double.parseDouble(textField1.getText());
-                double result = 0;
-
-                switch (operator) {
-                    case "+":
-                        result = num1 + num2;
-                        break;
-                    case "-":
-                        result = num1 - num2;
-                        break;
-                    case "*":
-                        result = num1 * num2;
-                        break;
-                    case "/":
-                        result = num1 / num2;
-                        break;
-                }
-
-                textField1.setText(String.valueOf(result));
+            case "*" -> {
+                num1 = Double.parseDouble(tfResult.getText());
+                operador = '*';
+                tfResult.setText("");
             }
-        });
-    }
-
-    private void addClearActionListener() {
-        buttonC.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                textField1.setText("");
+            case "/" -> {
+                num1 = Double.parseDouble(tfResult.getText());
+                operador = '/';
+                tfResult.setText("");
+            }
+            case "C" -> {
+                tfResult.setText("");
+                operador = 'C';
                 num1 = 0;
-                operator = "";
             }
-        });
-    }
-
-    private void addTextFieldKeyListener() {
-        textField1.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                try {
-                    String expression = textField1.getText();
-                    double result = eval(expression);
-                    textField1.setText(String.valueOf(result));
-                } catch (Exception ex) {
-                    textField1.setText("Error");
+            case "=" -> {
+                double resultado=0;
+                num2 = Double.parseDouble(tfResult.getText());
+                switch (operador) {
+                    case '+' -> resultado = num1 + num2;
+                    case '-' -> resultado = num1 - num2;
+                    case '*' -> resultado = num1 * num2;
+                    case '/' -> resultado = num1 / num2;
                 }
+                tfResult.setText(String.valueOf(resultado));
             }
-        });
-    }
-
-    private double eval(String expression) throws ScriptException {
-        // Avaliar a expressão matemática
-        // Esta é uma implementação simples e pode ser melhorada
-        return (double) new ScriptEngineManager().getEngineByName("JavaScript").eval(expression);
-    }
-
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(new Runnable() {
-            @Override
-            public void run() {
-                new Calculadora().setVisible(true);
-            }
-        });
+        }
     }
 }

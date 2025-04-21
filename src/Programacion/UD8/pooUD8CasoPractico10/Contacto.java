@@ -6,8 +6,6 @@ public class Contacto {
     private String email;
     private String categoria;
 
-    public Contacto() {}
-
     public Contacto(String nombre, String telefono, String email, String categoria) {
         this.nombre = nombre;
         this.telefono = telefono;
@@ -18,35 +16,40 @@ public class Contacto {
     public String getNombre() {
         return nombre;
     }
+
     public void setNombre(String nombre) {
         this.nombre = nombre;
     }
+
     public String getTelefono() {
         return telefono;
     }
+
     public void setTelefono(String telefono) {
         this.telefono = telefono;
     }
+
     public String getEmail() {
         return email;
     }
+
     public void setEmail(String email) {
         this.email = email;
     }
+
     public String getCategoria() {
         return categoria;
     }
+
     public void setCategoria(String categoria) {
         this.categoria = categoria;
     }
 
     @Override
     public String toString() {
-        return "Nombre: " + nombre + "\n" +
-                "Teléfono: " + telefono + "\n" +
-                "Email: " + email + "\n" +
-                "Categoría: " + categoria + "\n";
+        return "Nombre: " + nombre + '\n' +
+                "Teléfono: " + telefono + '\n' +
+                "E-mail: " + email + '\n' +
+                "Categoría: " + categoria + '\n';
     }
-
-
 }

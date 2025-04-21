@@ -1,3 +1,5 @@
+package Programacion.UD9.pooUD9CasoPractico1;
+
 public class MovilCamara extends Movil implements Camara{
     public MovilCamara(String numero, String marca, String modelo, String operador) {
         super(numero, marca, modelo, operador);

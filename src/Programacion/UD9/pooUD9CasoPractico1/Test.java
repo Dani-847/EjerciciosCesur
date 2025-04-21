@@ -1,3 +1,5 @@
+package Programacion.UD9.pooUD9CasoPractico1;
+
 public class Test {
     public static void main(String[] args) {
         MovilCamaraRadio miMovil = new MovilCamaraRadio("678543210","MSE","7712","Movifone");

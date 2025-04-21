@@ -1,3 +1,5 @@
+package Programacion.UD9.pooUD9CasoPractico1;
+
 public class TelefonoFijo extends Telefono {
     private String marca;
     private String modelo;

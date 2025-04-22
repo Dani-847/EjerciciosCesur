@@ -46,7 +46,10 @@
                 <preferred-size width="150" height="50"/>
               </grid>
             </constraints>
-            <properties/>
+            <properties>
+              <autoscrolls value="true"/>
+              <editable value="false"/>
+            </properties>
           </component>
           <vspacer id="c6fa3">
             <constraints>

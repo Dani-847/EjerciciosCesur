@@ -39,30 +39,46 @@ public class LectorDeProductos extends JFrame {
         int result = fileChooser.showOpenDialog(this);
         if (result == JFileChooser.APPROVE_OPTION) {
             File archivo = fileChooser.getSelectedFile();
-            try (BufferedReader br = new BufferedReader(new FileReader(archivo))) {
-                productos.clear();
-                comboBox1.removeAllItems();
-                comboBox1.addItem("Todas");
+            if (archivo.exists()) {
+                BufferedReader br = null;
+                try {
+                    br = new BufferedReader(new FileReader(archivo));
+                    String linea = br.readLine();
+                    productos.clear();
+                    comboBox1.removeAllItems();
+                    comboBox1.addItem("Todas");
 
-                String linea;
-                while ((linea = br.readLine()) != null) {
-                    String[] datos = linea.split(",");
-                    if (datos.length == 3) {
-                        String nombre = datos[0].trim();
-                        double precio = Double.parseDouble(datos[1].trim());
-                        String categoria = datos[2].trim();
-                        Producto producto = new Producto(nombre, precio, categoria);
-                        productos.add(producto);
+                    while (linea != null) {
+                        String[] datos = linea.split(",");
+                        if (datos.length == 3) {
+                            String nombre = datos[0].trim();
+                            double precio = Double.parseDouble(datos[1].trim());
+                            String categoria = datos[2].trim();
+                            Producto producto = new Producto(nombre, precio, categoria);
+                            productos.add(producto);
 
-                        if (((DefaultComboBoxModel<String>) comboBox1.getModel()).getIndexOf(categoria) == -1) {
-                            comboBox1.addItem(categoria);
+                            if (((DefaultComboBoxModel<String>) comboBox1.getModel()).getIndexOf(categoria) == -1) {
+                                comboBox1.addItem(categoria);
+                            }
                         }
+                        linea = br.readLine();
+                    }
+                    mostrarProductos(productos);
+                    calcularEstadisticas();
+                } catch (FileNotFoundException e) {
+                    JOptionPane.showMessageDialog(panel1, "Archivo no encontrado");
+                } catch (IOException e) {
+                    JOptionPane.showMessageDialog(panel1, "Error al leer el archivo");
+                } finally {
+                    try {
+                        if (br != null)
+                            br.close();
+                    } catch (IOException e) {
+                        JOptionPane.showMessageDialog(panel1, "Error al cerrar el archivo");
                     }
                 }
-                mostrarProductos(productos);
-                calcularEstadisticas();
-            } catch (IOException ex) {
-                JOptionPane.showMessageDialog(this, "Error al leer el archivo: " + ex.getMessage());
+            } else {
+                JOptionPane.showMessageDialog(panel1, "Archivo no encontrado");
             }
         }
     }

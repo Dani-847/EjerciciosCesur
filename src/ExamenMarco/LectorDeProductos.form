@@ -16,31 +16,31 @@
         <properties/>
         <border type="none" title=""/>
         <children>
-          <component id="7fd98" class="javax.swing.JButton" binding="button1" default-binding="true">
+          <component id="7fd98" class="javax.swing.JButton" binding="btnCargar">
             <constraints>
-              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="1" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Button"/>
+              <text value="Cargar CSV"/>
             </properties>
           </component>
-          <component id="4b0e2" class="javax.swing.JLabel">
+          <component id="4b0e2" class="javax.swing.JLabel" binding="precioMedio">
             <constraints>
-              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Label"/>
+              <text value="Precio medio: -€"/>
             </properties>
           </component>
-          <component id="ddea8" class="javax.swing.JLabel">
+          <component id="ddea8" class="javax.swing.JLabel" binding="productoMasCaro">
             <constraints>
-              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
-              <text value="Label"/>
+              <text value="Producto más caro: -€"/>
             </properties>
           </component>
-          <component id="9ba1a" class="javax.swing.JTextPane" binding="textPane1" default-binding="true">
+          <component id="9ba1a" class="javax.swing.JTextPane" binding="tpArchivo">
             <constraints>
               <grid row="2" column="1" row-span="2" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
                 <preferred-size width="150" height="50"/>
@@ -58,14 +58,25 @@
               <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
             </constraints>
           </hspacer>
-          <component id="6d362" class="javax.swing.JLabel">
+          <grid id="466fb" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
             <constraints>
-              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
             </constraints>
-            <properties>
-              <text value="Label"/>
-            </properties>
-          </component>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <component id="1c6ec" class="javax.swing.JLabel">
+                <constraints/>
+                <properties>
+                  <text value="Categoría:"/>
+                </properties>
+              </component>
+              <component id="1ba1d" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+                <constraints/>
+                <properties/>
+              </component>
+            </children>
+          </grid>
         </children>
       </grid>
     </children>

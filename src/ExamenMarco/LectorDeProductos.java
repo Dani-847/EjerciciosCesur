@@ -25,13 +25,9 @@ public class LectorDeProductos extends JFrame {
         setContentPane(panel1);
         setLocationRelativeTo(null);
 
-        btnCargar.addActionListener(e ->  {
-            cargarArchivoCSV();
-        });
+        btnCargar.addActionListener(e -> cargarArchivoCSV());
 
-        comboBox1.addActionListener(e ->  {
-            filtrarPorCategoria();
-        });
+        comboBox1.addActionListener(e -> filtrarPorCategoria());
     }
 
     private void cargarArchivoCSV() {
@@ -77,14 +73,6 @@ public class LectorDeProductos extends JFrame {
                 JOptionPane.showMessageDialog(panel1, "Archivo no encontrado");
             }
         }
-    }
-
-    private void mostrarProductos(List<Producto> productos) {
-        StringBuilder sb = new StringBuilder();
-        for (Producto producto : productos) {
-            sb.append(producto).append("\n");
-        }
-        tpArchivo.setText(sb.toString());
     }
 
 private void filtrarPorCategoria() {

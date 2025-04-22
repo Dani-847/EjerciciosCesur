@@ -1,44 +1,59 @@
 package Programacion.UD9.pooUD9CasoPractico2;
 
-public abstract class Dispositivo implements Conectable {
-    private String modelo;
-    private String marca;
-    private boolean conectado;
+public abstract class Dispositivo implements Conectable{
+    String modelo;
+    String marca;
+    boolean conectado;
 
-    public Dispositivo(String modelo, String marca) {
+    public String getModelo() {
+        return modelo;
+    }
+
+    public void setModelo(String modelo) {
         this.modelo = modelo;
+    }
+
+    public String getMarca() {
+        return marca;
+    }
+
+    public void setMarca(String marca) {
         this.marca = marca;
-        this.conectado = false;
+    }
+
+    public boolean isConectado() {
+        return conectado;
+    }
+
+    public void setConectado(boolean conectado) {
+        this.conectado = conectado;
+    }
+
+    @Override
+    public String toString() {
+        return "Dispositivo{" +
+                "modelo='" + modelo + '\'' +
+                ", marca='" + marca + '\'' +
+                ", conectado=" + conectado +
+                '}';
+    }
+
+    public void mostrarInfo(){
+        System.out.println(this);
     }
 
     @Override
     public void conectarWifi() {
-        if (!conectado) {
-            conectado = true;
-            System.out.println("El dispositivo se ha conectado a la red WiFi.");
-        } else {
-            System.out.println("El dispositivo ya está conectado.");
-        }
+        conectado = true;
     }
 
     @Override
     public void desconectarWifi() {
-        if (conectado) {
-            conectado = false;
-            System.out.println("El dispositivo se ha desconectado de la red WiFi.");
-        } else {
-            System.out.println("El dispositivo ya está desconectado.");
-        }
+        conectado = false;
     }
 
     @Override
     public boolean estaConectado() {
         return conectado;
-    }
-
-    public void mostrarInfo() {
-        System.out.println("Modelo: " + modelo);
-        System.out.println("Marca: " + marca);
-        System.out.println("Estado de conexión: " + (conectado ? "Conectado" : "Desconectado"));
     }
 }

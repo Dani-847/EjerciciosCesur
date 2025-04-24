@@ -1,6 +1,4 @@
-package ExamenMarco;
-
-import Programacion.UD8.pooUD8CasoPractico10.Contactos;
+package Programacion.Examenes.ExamenMarco;
 
 import javax.swing.*;
 

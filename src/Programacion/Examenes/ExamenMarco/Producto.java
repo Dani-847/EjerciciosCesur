@@ -1,4 +1,4 @@
-package ExamenMarco;
+package Programacion.Examenes.ExamenMarco;
 
 public class Producto {
     private String nombre;

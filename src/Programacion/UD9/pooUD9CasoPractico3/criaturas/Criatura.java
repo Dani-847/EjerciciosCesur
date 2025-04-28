@@ -49,7 +49,7 @@ public void luchar(Criatura oponente) {
         int esquivar = (int) (Math.random() * this.probabilidadEsquivar)+1;
         int recuperar = (int) (Math.random() * this.probabilidadRecuperar)+1;
         int golpe = (int) (Math.random() * this.fuerza) + 1;
-        int KO = (int) (Math.random() * this.vidaMaxima*3) + 1;
+        int KO = (int) (Math.random() * this.vidaMaxima*76) + 1;
         int esquivarGolpe = 0;
         if (critico == this.probabilidadCritico) {
             golpe *= this.multiplicadorCritico;
@@ -57,7 +57,7 @@ public void luchar(Criatura oponente) {
         } else if (esquivar == this.probabilidadEsquivar) {
             System.out.print("Criatura: " + Colores.color(this.color,this.nombre) + " -> " + Colores.color(oponente.color,oponente.nombre) + " [ " + 0 + " ]" + " " + Colores.color(Colores.LIGHT_GREEN,"¡ESQUIVA!"));
             esquivarGolpe = 1;
-        } else if (KO == this.vidaMaxima*3) {
+        } else if (KO == this.vidaMaxima*76) {
             System.out.print("Criatura: " + Colores.color(this.color,this.nombre) + " -> " + Colores.color(oponente.color,oponente.nombre) + " [ " + golpe + " ]" + " " + Colores.color(Colores.DARK_PURPLE,"¡KO!"));
             oponente.setVidaActual(0);
         } else {

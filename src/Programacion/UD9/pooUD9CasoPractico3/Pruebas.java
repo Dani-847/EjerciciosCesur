@@ -11,7 +11,6 @@ public class Pruebas {
 
         Criatura jugador1 = marcos;
         Criatura jugador2 = jiaxin;
-
         System.out.println(jugador1);
         System.out.println(jugador2);
 

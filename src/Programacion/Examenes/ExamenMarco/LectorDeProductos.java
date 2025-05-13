@@ -2,8 +2,6 @@ package Programacion.Examenes.ExamenMarco;
 
 import javax.swing.*;
 import java.io.*;
-import java.util.ArrayList;
-import java.util.List;
 
 public class LectorDeProductos extends JFrame {
     private JPanel panel1;
@@ -13,7 +11,8 @@ public class LectorDeProductos extends JFrame {
     private JLabel precioMedio;
     private JLabel productoMasCaro;
 
-    private List<Producto> productos = new ArrayList<>();
+    private Producto[] productos = new Producto[100];
+    private int contadorProductos = 0;
 
     public LectorDeProductos() {
         setTitle("Lector de Productos - CSV");
@@ -37,7 +36,7 @@ public class LectorDeProductos extends JFrame {
                 try {
                     br = new BufferedReader(new FileReader(archivo));
                     String linea = br.readLine();
-                    productos.clear();
+                    contadorProductos = 0;
                     comboBox1.removeAllItems();
                     comboBox1.addItem("Todas");
 
@@ -45,13 +44,18 @@ public class LectorDeProductos extends JFrame {
                     while (linea != null) {
                         String[] datos = linea.split(",");
                         if (datos.length == 3) {
-                            Producto producto = new Producto(datos[0], Double.parseDouble(datos[1]), datos[2]);
-                            productos.add(producto);
+                            if (contadorProductos < productos.length) {
+                                Producto producto = new Producto(datos[0], Double.parseDouble(datos[1]), datos[2]);
+                                productos[contadorProductos++] = producto;
 
-                            if (((DefaultComboBoxModel<String>) comboBox1.getModel()).getIndexOf(datos[2]) == -1) {
-                                comboBox1.addItem(datos[2]);
+                                if (((DefaultComboBoxModel<String>) comboBox1.getModel()).getIndexOf(datos[2]) == -1) {
+                                    comboBox1.addItem(datos[2]);
+                                }
+                                resultado.append(producto).append("\n");
+                            } else {
+                                JOptionPane.showMessageDialog(panel1, "Se alcanzó el límite de productos.");
+                                break;
                             }
-                            resultado.append(producto).append("\n");
                         }
                         linea = br.readLine();
                     }
@@ -72,40 +76,42 @@ public class LectorDeProductos extends JFrame {
         }
     }
 
-private void filtrarPorCategoria() {
-    String categoriaSeleccionada = (String) comboBox1.getSelectedItem();
-    if (categoriaSeleccionada != null) {
-        StringBuilder sb = new StringBuilder();
-        for (Producto producto : productos) {
-            if (categoriaSeleccionada.equals("Todas") || producto.getCategoria().equals(categoriaSeleccionada)) {
-                sb.append(producto).append("\n");
+    private void filtrarPorCategoria() {
+        String categoriaSeleccionada = (String) comboBox1.getSelectedItem();
+        if (categoriaSeleccionada != null) {
+            StringBuilder sb = new StringBuilder();
+            for (int i = 0; i < contadorProductos; i++) {
+                Producto producto = productos[i];
+                if (categoriaSeleccionada.equals("Todas") || producto.getCategoria().equals(categoriaSeleccionada)) {
+                    sb.append(producto).append("\n");
+                }
             }
+            tpArchivo.setText(sb.toString());
         }
-        tpArchivo.setText(sb.toString());
     }
-}
 
-private void calcularEstadisticas() {
-    if (!productos.isEmpty()) {
-        double sumaPrecios = 0.0;
-        Producto productoMasCaroObj = null;
+    private void calcularEstadisticas() {
+        if (contadorProductos > 0) {
+            double sumaPrecios = 0.0;
+            Producto productoMasCaroObj = null;
 
-        for (Producto producto : productos) {
-            sumaPrecios += producto.getPrecio();
-            if (productoMasCaroObj == null || producto.getPrecio() > productoMasCaroObj.getPrecio()) {
-                productoMasCaroObj = producto;
+            for (int i = 0; i < contadorProductos; i++) {
+                Producto producto = productos[i];
+                sumaPrecios += producto.getPrecio();
+                if (productoMasCaroObj == null || producto.getPrecio() > productoMasCaroObj.getPrecio()) {
+                    productoMasCaroObj = producto;
+                }
             }
-        }
 
-        double precioPromedio = sumaPrecios / productos.size();
-        precioMedio.setText("Precio medio: " + String.format("%.2f", precioPromedio) + "€");
+            double precioPromedio = sumaPrecios / contadorProductos;
+            precioMedio.setText("Precio medio: " + String.format("%.2f", precioPromedio) + "€");
 
-        if (productoMasCaroObj != null) {
-            productoMasCaro.setText("Producto más caro: " + productoMasCaroObj.getNombre() + " (" + productoMasCaroObj.getPrecio() + "€)");
+            if (productoMasCaroObj != null) {
+                productoMasCaro.setText("Producto más caro: " + productoMasCaroObj.getNombre() + " (" + productoMasCaroObj.getPrecio() + "€)");
+            }
+        } else {
+            precioMedio.setText("Precio medio: -€");
+            productoMasCaro.setText("Producto más caro: -");
         }
-    } else {
-        precioMedio.setText("Precio medio: -€");
-        productoMasCaro.setText("Producto más caro: -");
     }
-}
 }
